@@ -152,7 +152,9 @@ const team: Member[] = [
   },
   {
     name: 'Drona Gaddam',
-    positions: ['Finance Team and Curriculum Developer and YEI Podcast Co-Director'],
+    positions: [
+      'Finance Team and Curriculum Developer and YEI Podcast Co-Director',
+    ],
     linkedin: 'drona-gaddam-359a07281',
   },
   {
@@ -168,6 +170,66 @@ const team: Member[] = [
     name: 'Eli Orbach',
     positions: ['Event Coordinator'],
     linkedin: 'eli-orbach-92a0b2341',
+  },
+  {
+    name: 'William Kozoman',
+    positions: ['Event Coordinator'],
+    linkedin: 'william-kozoman',
+  },
+  {
+    name: 'Jay Asrani',
+    positions: ['Marketing Specialist'],
+    linkedin: 'jay-asrani-439972320',
+  },
+  {
+    name: 'Chriselle Varghese',
+    positions: ['Team Ambassador'],
+    linkedin: 'chriselle-varghese-541744220',
+  },
+  {
+    name: 'Sricharan Bala',
+    positions: ['Sponsorship and Grant Coordinator'],
+    linkedin: 'sricharan-bala-1a717b2bb',
+  },
+  {
+    name: 'Alex Park',
+    positions: ['Team Ambassador'],
+    linkedin: 'alex-park-93b155286',
+  },
+  {
+    name: 'Lake Zhou',
+    positions: ['Curriculum Developer'],
+    linkedin: 'lake-zhou-3183902a8',
+  },
+  {
+    name: 'Saasthra Bojja',
+    positions: ['Team Ambassador'],
+    linkedin: 'saasthra-bojja-4b31a3303',
+  },
+  {
+    name: 'Maite Miguez',
+    positions: ['Team Ambassador'],
+    linkedin: 'maite-miguez-00948a2b1',
+  },
+  {
+    name: 'Kayla Anderson',
+    positions: ['Marketing Specialist'],
+    linkedin: '-kayla-anderson-',
+  },
+  {
+    name: 'Deniz Yaveroglu',
+    positions: ['FLIP partnership manager'],
+    linkedin: 'deniz-yaveroglu-b194bb2ba',
+  },
+  {
+    name: 'Linus Li',
+    positions: ['Podcast Co-Director'],
+    linkedin: 'linus-li-6295042a2',
+  },
+  {
+    name: 'Manan Dua',
+    positions: ['Head Event Coordinator'],
+    linkedin: 'manan-dua-9329172bb',
   },
 ]
 
