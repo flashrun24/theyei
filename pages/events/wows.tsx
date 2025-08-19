@@ -42,7 +42,7 @@ export default function wows() {
         desc="Women of Wall Street (WOWS) empowers young women in economics, finance, and business. Through mentorship, industry insights, and networking, participants gain the skills and confidence to break barriers and succeed in the business world."
         applyLink="https://docs.google.com/forms/u/4/d/e/1FAIpQLSc0G3fSrUg4rHwCjThgqnII8pbUrwEKazu3xc3xNZkj5fLeDQ/viewform?usp=header"
       />
-      <ContentBlock
+      {/*<ContentBlock
         title="Register now for our first event"
         subtitle="Event"
         boa={false}
@@ -78,7 +78,7 @@ export default function wows() {
         >
           Register
         </a>
-      </ContentBlock>
+      </ContentBlock>*/}
       <ContentBlock
         subtitle="YEI WOWS"
         title="Women of Wall Street"
