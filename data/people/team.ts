@@ -73,21 +73,6 @@ const team: Member[] = [
     linkedin: 'yelim-lee-354894239',
   },
   {
-    name: 'Emma Awoseyi',
-    positions: ['Sponsorship and Grant Coordinator', 'Regional Ambassador'],
-    linkedin: 'emma-awoseyi',
-  },
-  {
-    name: 'Nikhil Kumar',
-    positions: ['Sponsorship and Grant Coordinator', 'Regional Ambassador'],
-    linkedin: 'nikhilkumarusa',
-  },
-  {
-    name: 'Peter Yang',
-    positions: ['Sponsorship and Grant Coordinator'],
-    linkedin: 'peter-yang26',
-  },
-  {
     name: 'Drona Gaddam',
     positions: [
       'Finance Team and Curriculum Developer and YEI Podcast Co-Director',
@@ -112,6 +97,11 @@ const team: Member[] = [
     name: 'Sricharan Bala',
     positions: ['Sponsorship and Grant Coordinator'],
     linkedin: 'sricharan-bala-1a717b2bb',
+  },
+  {
+    name: 'Ava Jerman',
+    positions: ['Sponsorship and Grant Coordinator'],
+    linkedin: 'ava-jerman-0b326b2a2',
   },
   {
     name: 'Lake Zhou',
@@ -164,9 +154,44 @@ const team: Member[] = [
     linkedin: 'jay-asrani-439972320',
   },
   {
+    name: 'Chriselle Varghese',
+    positions: ['Team Ambassador'],
+    linkedin: 'chriselle-varghese-541744220',
+  },
+  {
+    name: 'Alex Park',
+    positions: ['Team Ambassador'],
+    linkedin: 'alex-park-93b155286',
+  },
+  {
+    name: 'Saasthra Bojja',
+    positions: ['Team Ambassador'],
+    linkedin: 'saasthra-bojja-4b31a3303',
+  },
+  {
+    name: 'Maite Miguez',
+    positions: ['Team Ambassador'],
+    linkedin: 'maite-miguez-00948a2b1',
+  },
+  {
     name: 'Kayla Anderson',
     positions: ['Marketing Specialist'],
     linkedin: '-kayla-anderson-',
+  },
+  {
+    name: 'Emma Awoseyi',
+    positions: ['Sponsorship and Grant Coordinator', 'Regional Ambassador'],
+    linkedin: 'emma-awoseyi',
+  },
+  {
+    name: 'Nikhil Kumar',
+    positions: ['Sponsorship and Grant Coordinator', 'Regional Ambassador'],
+    linkedin: 'nikhilkumarusa',
+  },
+  {
+    name: 'Peter Yang',
+    positions: ['Sponsorship and Grant Coordinator'],
+    linkedin: 'peter-yang26',
   },
   {
     name: 'Pratyaksha Sharma',
@@ -201,26 +226,6 @@ const team: Member[] = [
     name: 'Dinassyl Smadil',
     positions: ['Regional Ambassador'],
     linkedin: 'dinassyl-smadil',
-  },
-  {
-    name: 'Chriselle Varghese',
-    positions: ['Team Ambassador'],
-    linkedin: 'chriselle-varghese-541744220',
-  },
-  {
-    name: 'Alex Park',
-    positions: ['Team Ambassador'],
-    linkedin: 'alex-park-93b155286',
-  },
-  {
-    name: 'Saasthra Bojja',
-    positions: ['Team Ambassador'],
-    linkedin: 'saasthra-bojja-4b31a3303',
-  },
-  {
-    name: 'Maite Miguez',
-    positions: ['Team Ambassador'],
-    linkedin: 'maite-miguez-00948a2b1',
   },
   {
     name: 'Nikhil Godbole',
