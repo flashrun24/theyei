@@ -5,6 +5,7 @@ import Hero from '../../components/events/econolympiad/Hero'
 import Info from '../../components/events/econolympiad/Info'
 import KeyDates from '../../components/events/econolympiad/KeyDates'
 import Prizes from '../../components/events/econolympiad/Prizes'
+import Winners from '../../components/events/econolympiad/Winners'
 import Page from '../../components/utility/Page'
 import Speaker from '../../components/events/econolympiad/Speaker'
 import Sponsors from '../../components/events/econolympiad/Sponsors'
@@ -22,9 +23,10 @@ export default function econolympiad() {
       <Hero />
       {/* <Recap /> */}
       <Info />
-      <Prompt/>
+      <Prompt />
       <KeyDates />
       <Prizes />
+      <Winners />
       {/* <Agenda /> */}
       <Speaker />
       <FAQs />
