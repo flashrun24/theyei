@@ -10,7 +10,7 @@ function Stats() {
         { desc: 'Current clubs', val: currentClubs.length },
         {
           desc: 'Active student members',
-          val: Math.floor((currentClubs.length * 47.3) / 25) * 25,
+          val: Math.floor((currentClubs.length * 47.3) / 25) * 25 + 80,
         },
         {
           desc: 'Regions around the world',
