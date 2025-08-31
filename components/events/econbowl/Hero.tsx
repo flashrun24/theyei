@@ -86,7 +86,7 @@ export default function Hero() {
               />
               <div className="mt-3 mx-auto text-left md:text-center text-gray-500 text-lg md:mt-5 md:max-w-3xl">
                 <p className="italic max-w-xl text-base text-gray-400 inline-flex w-auto border-y-2 border-gray-300 py-3">
-                  The Youth Economics Initiative is proud to present our 6th
+                  The Youth Economics Initiative is proud to present our 7th
                   Annual EconBowl!
                 </p>
                 <p className="mt-4">
@@ -106,7 +106,7 @@ export default function Hero() {
                   .
                 </p> */}
 
-                {/* <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
+                <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
                   <b>
                     Registration will close on November 12, 2024 at 11:59 PST
                     (UTC−8).
@@ -114,7 +114,7 @@ export default function Hero() {
                   The competition will be held on November 16, 9:00 AM PST
                   through Zoom. Written round qualifiers be at 4:00 pm PST for
                   finalists.
-                </p> */}
+                </p>
                 {/* <AnchorLink
                   href="#register"
                   offset={100}
@@ -122,12 +122,12 @@ export default function Hero() {
                 >
                   Register!
                 </AnchorLink> */}
-                {/* <a
-                  href="https://tinyurl.com/6theconbowl"
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfCBuC-cazFVP-Ntv-UhlZv_zs-5M5J3NBTp0NYNwY57EyWxg/viewform?usp=header"
                   className="mt-4 inline-flex w-auto items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yei-primary-main hover:bg-opacity-90 sm:px-8"
                 >
                   Register!
-                </a> */}
+                </a>
               </div>
             </div>
           </main>
