@@ -231,11 +231,6 @@ const team: Member[] = [
     name: 'Nikhil Godbole',
     positions: ['Team Ambassador'],
   },
-  {
-    name: 'Andre Poghosyan',
-    positions: ['Team Ambassador'],
-    linkedin: 'andre-poghosyan',
-  },
 ]
 
 export { team, exec }
