@@ -80,18 +80,13 @@ const team: Member[] = [
     linkedin: 'drona-gaddam-359a07281',
   },
   {
+    name: 'Deniz Yaveroglu',
+    positions: ['FLIP partnership manager'],
+    linkedin: 'deniz-yaveroglu-b194bb2ba',
+  },
+  {
     name: 'Kioni Chong',
     positions: ['Sponsorship and Grant Coordinator'],
-  },
-  {
-    name: 'Auritro Chakraborty',
-    positions: ['Curriculum Developer'],
-    linkedin: 'auritro-chakraborty-01a4bb245',
-  },
-  {
-    name: 'Nicholas Li',
-    positions: ['Curriculum Developer'],
-    linkedin: 'nikolaili',
   },
   {
     name: 'Sricharan Bala',
@@ -104,14 +99,24 @@ const team: Member[] = [
     linkedin: 'ava-jerman-0b326b2a2',
   },
   {
+    name: 'Aahaan Jain',
+    positions: ['Sponsorship and Grant Coordinator'],
+    linkedin: 'aahaan-jain-703794380',
+  },
+  {
     name: 'Lake Zhou',
     positions: ['Curriculum Developer'],
     linkedin: 'lake-zhou-3183902a8',
   },
   {
-    name: 'Deniz Yaveroglu',
-    positions: ['FLIP partnership manager'],
-    linkedin: 'deniz-yaveroglu-b194bb2ba',
+    name: 'Auritro Chakraborty',
+    positions: ['Curriculum Developer'],
+    linkedin: 'auritro-chakraborty-01a4bb245',
+  },
+  {
+    name: 'Nicholas Li',
+    positions: ['Curriculum Developer'],
+    linkedin: 'nikolaili',
   },
   {
     name: 'Linus Li',
