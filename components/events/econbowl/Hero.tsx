@@ -108,7 +108,7 @@ export default function Hero() {
 
                 <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
                   <b>
-                    Registration will close on November 12, 2024 at 11:59 PST
+                    Registration will close on November 12, 2025 at 11:59 PST
                     (UTC−8).
                   </b>{' '}
                   The competition will be held on November 16, 9:00 AM PST
