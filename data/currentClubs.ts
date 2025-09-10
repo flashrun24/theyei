@@ -428,7 +428,7 @@ const clubs = [
   {
     name: 'Classical High School',
     email: 'simone@punchak.net',
-    region: 'Rhode Island'
+    region: 'Rhode Island',
   },
   {
     name: 'Triam Udom Suksa School',
@@ -448,113 +448,168 @@ const clubs = [
   {
     name: 'Manila Xiamen International School',
     email: 'alexwongyanki@163.com',
-    region: 'China'
+    region: 'China',
   },
   {
     name: 'Chengdu Foreign Languages School',
     email: '12120626@qq.com',
-    region: 'China'
+    region: 'China',
   },
   {
     name: 'Beijing Haidian Foreign Language Shiyan School',
     email: 'edwardqu0822@outlook.com',
-    region: 'China'
+    region: 'China',
   },
   {
     name: 'Hefei Thomas School',
     email: 'hesy101016@icloud.com',
-    region: 'China'
+    region: 'China',
   },
   {
     name: 'Seoul Academy',
     email: 'gunhee060607@gmail.com',
-    region: 'South Korea'
+    region: 'South Korea',
   },
   {
     name: 'Guangdong Country Garden School',
     email: 'liuhuijiao@brightscholar.com',
-    region: 'China'
+    region: 'China',
   },
   {
     name: 'Beijing Haidian Kaiwen Academy',
     email: '16671762@qq.com',
-    region: 'China'
+    region: 'China',
   },
   {
     name: 'The British School Manila',
     email: 'seanty1005@gmail.com',
-    region: 'Philippines'
+    region: 'Philippines',
   },
   {
     name: 'Presidential School',
     email: 'marufbek@theyei.org',
-    region: 'Uzbekistan'
+    region: 'Uzbekistan',
   },
   {
     name: 'The SMIC Private School',
     email: 'leoshin717@outlook.com',
-    region: 'China'
+    region: 'China',
   },
   {
     name: 'Chinmaya International Residential School',
     email: 'yash@theyei.org',
-    region: 'India'
+    region: 'India',
   },
   {
-    name: "The International School of Kuala Lumpur",
+    name: 'The International School of Kuala Lumpur',
     email: 'kizawa26@iskl.edu.my',
-    region: 'Malaysia'
+    region: 'Malaysia',
   },
   {
     name: 'Granada Hills Charter School',
     email: '44491@student.ghctk12.com',
-    region: "SoCal"
+    region: 'SoCal',
   },
   {
-    name: "West Forsyth High School",
+    name: 'West Forsyth High School',
     email: 'allenvarghese15@gmail.com',
-    region: 'Georgia'
+    region: 'Georgia',
   },
   {
     name: 'Christopher Columbus High School',
     email: 'acaram27080@columbushs.com',
-    region: 'Florida'
+    region: 'Florida',
   },
   {
     name: 'Üsküdar American Academy',
-    email:'ekutlucan27@my.uaa.k12.tr',
-    region: 'Turkey'
+    email: 'ekutlucan27@my.uaa.k12.tr',
+    region: 'Turkey',
   },
   {
-    name: "Dwight School Seoul",
+    name: 'Dwight School Seoul',
     email: '1900229@dwight.or.kr',
-    region: "South Korea"
+    region: 'South Korea',
   },
   {
     name: 'Georgetown Day School',
     email: 'dyaveroglu27@gds.org',
-    region: 'Washington, DC'
+    region: 'Washington, DC',
   },
   {
     name: 'Sage Hill School',
     email: 'd6nielliu@gmail.com',
-    region: 'SoCal'
+    region: 'SoCal',
   },
   {
     name: 'Jakarta Intercultural School',
     email: 'mortonwu2009@gmail.com',
-    region: 'Indonesia'
+    region: 'Indonesia',
   },
   {
     name: 'Lincoln High School Seattle',
     email: 'naomi.elsing@gmail.com',
-    region: 'Washington'
+    region: 'Washington',
   },
   {
     name: 'Renaissance College Hong Kong',
     email: 'dilaratwo2@gmail.com',
-    region: 'Hong Kong'
-  }
+    region: 'Hong Kong',
+  },
+  {
+    name: 'Huizhong Chinese School',
+    email: 'mortonwu2009@gmail.com',
+    region: 'Richmond, BC Canada',
+  },
+  {
+    name: 'Christoper Columbus High School',
+    email: 'acaram27080@columbushs.com',
+    region: 'Miami, Florida',
+  },
+  {
+    name: "St. John's Academy Shawnigan Lake",
+    email: 'Matthewcyang3@gmail.com',
+    region: 'Shawnigan Lake, British Columbia',
+  },
+  {
+    name: 'Poolesville High School',
+    email: 'be_efrata@icloud.com',
+    region: 'Poolesville, MD',
+  },
+  {
+    name: 'Wayzata High School',
+    email: 'wayzatahs@theyei.org',
+    region: 'Plymouth, Minnesota, USA',
+  },
+  {
+    name: 'Jai Hind Junior College',
+    email: 'jaihindjc@theyei.org',
+    region: 'Mumbai, India',
+  },
+  {
+    name: 'Collegiate School of Memphis',
+    email: 'collegiateschoolmemphis@theyei.org',
+    region: 'Memphis, Tennessee, USA',
+  },
+  {
+    name: 'Saamamish High School',
+    email: 'sammamishhs@theyei.org',
+    region: 'Bellevue, Washington St, USA',
+  },
+  {
+    name: 'Coppell High School',
+    email: 'coppellhs@theyei.org',
+    region: 'Coppell, Texas, USA',
+  },
+  {
+    name: 'Beit Yaacov High School',
+    email: 'beityaacovhs@theyei.org',
+    region: 'Sao Paulo, Brazil',
+  },
+  {
+    name: 'Institut Internationale de Lancy',
+    email: 'institutlancy@theyei.org',
+    region: 'Geneve, Switzerland',
+  },
 ]
 
 export default clubs
