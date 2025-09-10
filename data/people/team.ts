@@ -90,7 +90,9 @@ const team: Member[] = [
   },
   {
     name: 'Sricharan Bala',
-    positions: ['Sponsorship and Grant Coordinator'],
+    positions: [
+      'Sponsorship and Grant Coordinator & FLIP Curriculum Developer',
+    ],
     linkedin: 'sricharan-bala-1a717b2bb',
   },
   {
