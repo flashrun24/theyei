@@ -521,7 +521,7 @@ const clubs = [
     region: 'Florida',
   },
   {
-    name: 'Üsküdar American Academy',
+    name: 'Uskudar American Academy',
     email: 'ekutlucan27@my.uaa.k12.tr',
     region: 'Turkey',
   },
@@ -561,7 +561,7 @@ const clubs = [
     region: 'Richmond, BC Canada',
   },
   {
-    name: "St. John's Academy Shawnigan Lake",
+    name: "Saint John's Academy Shawnigan Lake",
     email: 'Matthewcyang3@gmail.com',
     region: 'Shawnigan Lake, British Columbia',
   },
