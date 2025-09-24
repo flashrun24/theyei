@@ -561,11 +561,6 @@ const clubs = [
     region: 'Richmond, BC Canada',
   },
   {
-    name: 'Christoper Columbus High School',
-    email: 'acaram27080@columbushs.com',
-    region: 'Miami, Florida',
-  },
-  {
     name: "St. John's Academy Shawnigan Lake",
     email: 'Matthewcyang3@gmail.com',
     region: 'Shawnigan Lake, British Columbia',
