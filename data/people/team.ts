@@ -116,11 +116,6 @@ const team: Member[] = [
     linkedin: 'auritro-chakraborty-01a4bb245',
   },
   {
-    name: 'Nicholas Li',
-    positions: ['Curriculum Developer'],
-    linkedin: 'nikolaili',
-  },
-  {
     name: 'Linus Li',
     positions: ['Podcast Co-Director'],
     linkedin: 'linus-li-6295042a2',
