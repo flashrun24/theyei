@@ -117,7 +117,7 @@ const team: Member[] = [
   },
   {
     name: 'Linus Li',
-    positions: ['Podcast Co-Director'],
+    positions: ['YEI Podcast Co-Director'],
     linkedin: 'linus-li-6295042a2',
   },
   {
