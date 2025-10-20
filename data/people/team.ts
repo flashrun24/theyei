@@ -176,9 +176,19 @@ const team: Member[] = [
     linkedin: 'maite-miguez-00948a2b1',
   },
   {
+    name: 'Satya Dindi',
+    positions: ['Team Ambassador'],
+    linkedin: 'satya-dindi',
+  },
+  {
     name: 'Kayla Anderson',
     positions: ['Marketing Specialist'],
     linkedin: '-kayla-anderson-',
+  },
+  {
+    name: 'Emili Nguyen',
+    positions: ['Marketing Specialist'],
+    linkedin: 'emili-nguyen-0ab2b638b',
   },
   {
     name: 'Emma Awoseyi',
