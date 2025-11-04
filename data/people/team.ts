@@ -181,6 +181,11 @@ const team: Member[] = [
     linkedin: 'satya-dindi',
   },
   {
+    name: 'Akash Dubey',
+    positions: ['Team Ambassador'],
+    linkedin: 'akash-dubey-912241311',
+  },
+  {
     name: 'Kayla Anderson',
     positions: ['Marketing Specialist'],
     linkedin: '-kayla-anderson-',
