@@ -116,6 +116,11 @@ const team: Member[] = [
     linkedin: 'auritro-chakraborty-01a4bb245',
   },
   {
+    name: 'Shivam Gupta',
+    positions: ['Curriculum Developer'],
+    linkedin: 'shivam-gupta-878792216',
+  },
+  {
     name: 'Linus Li',
     positions: ['YEI Podcast Co-Director'],
     linkedin: 'linus-li-6295042a2',
