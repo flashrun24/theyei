@@ -117,9 +117,9 @@ export default function wows() {
           to take part in shaping the future of democracy and the economy.
         </p>
         <p>
-          As part of the workshop, The YEI gave am intro to economics and
+          As part of the workshop, The YEI gave an introduction to economics and
           emphasized the importance of understanding economics. To add on to the
-          YEI's presentaion DemocraShe presented on Youth and Gender Inclusion
+          YEI's presentation DemocraShe presented on Youth and Gender Inclusion
           in Advocacy, expressing the need for young women to increase their
           participation in important conversations in civic life. To finish up
           the workshop teams were asked to design a nonprofit business idea that
