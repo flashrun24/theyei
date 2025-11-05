@@ -105,6 +105,28 @@ export default function wows() {
         </p>
       </ContentBlock>
       <Facts facts={FACTS} />
+      <ContentBlock
+        subtitle="Workshop"
+        title="YEI X DemocraShe Workshop"
+        imgSrc="/img/photos/programs/YEIxDemocraShe.jpg"
+        boa={false}
+      >
+        <p>
+          On Sunday, October 12, 2025, YEI and DemocraShe held a joint online
+          workshop. During the workshop, we explored how we could empower youth
+          to take part in shaping the future of democracy and the economy.
+        </p>
+        <p>
+          As part of the workshop, The YEI gave am intro to economics and
+          emphasized the importance of understanding economics. To add on to the
+          YEI's presentaion DemocraShe presented on Youth and Gender Inclusion
+          in Advocacy, expressing the need for young women to increase their
+          participation in important conversations in civic life. To finish up
+          the workshop teams were asked to design a nonprofit business idea that
+          helps close gender or youth gaps in economic participation, financial
+          literacy, or entrepreneurship.
+        </p>
+      </ContentBlock>
       <Curriculum />
       <SpeakerGrid />
     </Page>
