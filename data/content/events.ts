@@ -39,6 +39,12 @@ const events = [
       'The YEI Alumni Panel is an annual event that features 2 to 4 past members sharing how their experience with YEI boosted their college applications. Each panelist shares their journey through high school and the college application process. This is then followed by a live Q&A session where participants have a chance to ask questions.',
     href: '/events/alumnipanel',
   },
+  {
+    title: 'WOWS',
+    content:
+      'Women of Wall Street (WOWS) empowers young women in economics, finance, and business. Through mentorship, industry insights, and networking, participants gain the skills and confidence to break barriers and succeed in the business world. As part of this WOWS holds various events including workshops and talks by successful women in economics.',
+    href: '/events/wows',
+  },
 ]
 
 export default events
