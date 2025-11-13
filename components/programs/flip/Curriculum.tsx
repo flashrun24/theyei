@@ -44,7 +44,7 @@ export default function Curriculum() {
           caption="Preview of Net Price Calculator"
         />
         <CurriculumSection
-          title="16-Week High School Curriculum"
+          title="Financial Literacy in the Age of AI & Digital Money"
           darkerBg={true}
           //folderLink=""
           slideLink="https://docs.google.com/presentation/d/1BraTKVxccaYmnoXqS18Q-oUEO3lz_8jAIuldcCNdQWQ/embed#slide=id.g11a1ccd9bf3_0_102"
