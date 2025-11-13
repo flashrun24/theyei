@@ -43,6 +43,13 @@ export default function Curriculum() {
           content="To further support college-bound students, the Youth Economics Initiative FLIP Department has made a Net Price Calculator Guide to help students with their college financing needs. Created by FLIP Partnership Manager Prasanna Chandankhede, this guide is intended to demystify college financing resources options."
           caption="Preview of Net Price Calculator"
         />
+        <CurriculumSection
+          title="16-Week High School Curriculum"
+          darkerBg={true}
+          //folderLink=""
+          slideLink="https://docs.google.com/presentation/d/1BraTKVxccaYmnoXqS18Q-oUEO3lz_8jAIuldcCNdQWQ/embed#slide=id.g11a1ccd9bf3_0_102"
+          content="Recognizing the massive shift toward digital money and artificial intelligence, the FLIP team has developed a brand-new 7-week curriculum — Financial Literacy in the Age of AI & Digital Money — to prepare students for the future of finance. This 7-week course, designed by Sricharan Bala (FLIP Curriculum Manager) under Prasanna Chandankhede (VP of FLIP)'s supervision, introduces students to the essentials of digital finance, AI, and fintech, helping them understand how technology is reshaping money and opportunity."
+        />
       </div>
     </div>
   )
