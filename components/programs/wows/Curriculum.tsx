@@ -5,7 +5,6 @@ import CurriculumSection from './CurriculumSection'
 export default function Curriculum() {
   return (
     <div className="bg-white">
-
       <div className="max-w-7xl mx-auto py-12 px-4 sm:py-20 sm:px-6 lg:px-8">
         <div className="text-5xl  font-extrabold tracking-tight text-gray-900 sm:text-4xl mb-[-5px]">
           Resources
@@ -20,6 +19,11 @@ export default function Curriculum() {
           darkerBg={true}
           slideLink="https://docs.google.com/presentation/d/e/2PACX-1vR4PqlXbLg3J4pLR_DCTPxE4ZmhF7KsSLZejo-7iAIeKWlfA2Y9ih6rEY08YatmzS45H1LG39Zq-KIC/embed"
           content=""
+        />
+        <CurriculumSection
+          title="Financial Literacy for Women"
+          content=""
+          slideLink="https://docs.google.com/presentation/d/e/2PACX-1vRaHD3SsBESQS6YUSARNbxEG6ScZAtzgJf_3_uCx_OduAPhhlb7ds5uifEEdxDA4SckoQrUOBMc7wfY/embed"
         />
       </div>
     </div>
