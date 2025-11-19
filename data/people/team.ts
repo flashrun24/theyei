@@ -146,21 +146,6 @@ const team: Member[] = [
     linkedin: 'william-kozoman',
   },
   {
-    name: 'Kailash Muthukumar',
-    positions: ['Event Coordinator'],
-    linkedin: 'kailash-m-78b9a3271',
-  },
-  {
-    name: 'Johan Simon',
-    positions: ['Event Coordinator'],
-    linkedin: 'johan-simon-1b0807302',
-  },
-  {
-    name: 'Jay Asrani',
-    positions: ['Marketing Specialist'],
-    linkedin: 'jay-asrani-439972320',
-  },
-  {
     name: 'Chriselle Varghese',
     positions: ['Team Ambassador'],
     linkedin: 'chriselle-varghese-541744220',
