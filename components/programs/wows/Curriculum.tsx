@@ -27,6 +27,7 @@ export default function Curriculum() {
         />
         <CurriculumSection
           title="Women in Finance"
+          darkerBg={true}
           content=""
           slideLink="https://docs.google.com/presentation/d/1Ekc3NYvH2QCO7kACwjNjWZO3N-rRqOR7fqHdRIKfTOs/embed"
         />
