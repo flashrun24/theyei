@@ -25,6 +25,12 @@ export default function Curriculum() {
           content=""
           slideLink="https://docs.google.com/presentation/d/e/2PACX-1vRaHD3SsBESQS6YUSARNbxEG6ScZAtzgJf_3_uCx_OduAPhhlb7ds5uifEEdxDA4SckoQrUOBMc7wfY/embed"
         />
+        <CurriculumSection
+          title="Women in Finance"
+          darkerBg={true}
+          slideLink="https://docs.google.com/presentation/d/1Ekc3NYvH2QCO7kACwjNjWZO3N-rRqOR7fqHdRIKfTOs/embed#slide=id.p"
+          content=""
+        />
       </div>
     </div>
   )
