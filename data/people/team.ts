@@ -176,6 +176,16 @@ const team: Member[] = [
     linkedin: 'akash-dubey-912241311',
   },
   {
+    name: 'Aditi Gandhi',
+    positions: ['Team Ambassador'],
+    linkedin: 'aditi-gandhi-086132399',
+  },
+  {
+    name: 'Lucas Jiang',
+    positions: ['Team Ambassador'],
+    linkedin: 'lucas-jiang-18a232396',
+  },
+  {
     name: 'Kayla Anderson',
     positions: ['Marketing Specialist'],
     linkedin: '-kayla-anderson-',
@@ -184,6 +194,16 @@ const team: Member[] = [
     name: 'Emili Nguyen',
     positions: ['Marketing Specialist'],
     linkedin: 'emili-nguyen-0ab2b638b',
+  },
+  {
+    name: 'Anushka Ramchander',
+    positions: ['Marketing Specialist'],
+    linkedin: 'anushka-ramchander-b279b8376',
+  },
+  {
+    name: 'Kaitlyn Kwong',
+    positions: ['Marketing Specialist'],
+    linkedin: 'kaitlyn-kwong-6136212aa',
   },
   {
     name: 'Emma Awoseyi',
@@ -199,6 +219,16 @@ const team: Member[] = [
     name: 'Peter Yang',
     positions: ['Sponsorship and Grant Coordinator'],
     linkedin: 'peter-yang26',
+  },
+  {
+    name: 'Afra Miao',
+    positions: ['Sponsorship and Grant Coordinator'],
+    linkedin: 'afra-miao-0080a2396',
+  },
+  {
+    name: 'Elizabeth Holmes',
+    positions: ['Sponsorship and Grant Coordinator'],
+    linkedin: 'elizabeth-holmes-29aa9b370',
   },
   {
     name: 'Pratyaksha Sharma',
