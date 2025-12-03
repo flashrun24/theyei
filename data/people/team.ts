@@ -106,6 +106,21 @@ const team: Member[] = [
     linkedin: 'aahaan-jain-703794380',
   },
   {
+    name: 'Peter Yang',
+    positions: ['Sponsorship and Grant Coordinator'],
+    linkedin: 'peter-yang26',
+  },
+  {
+    name: 'Afra Miao',
+    positions: ['Sponsorship and Grant Coordinator'],
+    linkedin: 'afra-miao-0080a2396',
+  },
+  {
+    name: 'Elizabeth Holmes',
+    positions: ['Sponsorship and Grant Coordinator'],
+    linkedin: 'elizabeth-holmes-29aa9b370',
+  },
+  {
     name: 'Lake Zhou',
     positions: ['Curriculum Developer'],
     linkedin: 'lake-zhou-3183902a8',
@@ -183,7 +198,7 @@ const team: Member[] = [
   {
     name: 'Lucas Jiang',
     positions: ['Team Ambassador'],
-    linkedin: 'lucas-jiang-18a232396',
+    linkedin: 'lucas-jiang-7090a8398',
   },
   {
     name: 'Kayla Anderson',
@@ -214,21 +229,6 @@ const team: Member[] = [
     name: 'Nikhil Kumar',
     positions: ['Sponsorship and Grant Coordinator', 'Regional Ambassador'],
     linkedin: 'nikhilkumarusa',
-  },
-  {
-    name: 'Peter Yang',
-    positions: ['Sponsorship and Grant Coordinator'],
-    linkedin: 'peter-yang26',
-  },
-  {
-    name: 'Afra Miao',
-    positions: ['Sponsorship and Grant Coordinator'],
-    linkedin: 'afra-miao-0080a2396',
-  },
-  {
-    name: 'Elizabeth Holmes',
-    positions: ['Sponsorship and Grant Coordinator'],
-    linkedin: 'elizabeth-holmes-29aa9b370',
   },
   {
     name: 'Pratyaksha Sharma',
