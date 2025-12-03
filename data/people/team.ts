@@ -85,15 +85,20 @@ const team: Member[] = [
     linkedin: 'deniz-yaveroglu-b194bb2ba',
   },
   {
-    name: 'Kioni Chong',
-    positions: ['Sponsorship and Grant Coordinator'],
-  },
-  {
     name: 'Sricharan Bala',
     positions: [
       'Sponsorship and Grant Coordinator & FLIP Curriculum Developer',
     ],
     linkedin: 'sricharan-bala-1a717b2bb',
+  },
+  {
+    name: 'Mahesh Yandra',
+    positions: ['FLIP Curriculum Developer'],
+    linkedin: 'mahesh-y-b96716334',
+  },
+  {
+    name: 'Kioni Chong',
+    positions: ['Sponsorship and Grant Coordinator'],
   },
   {
     name: 'Ava Jerman',
