@@ -121,6 +121,11 @@ const team: Member[] = [
     linkedin: 'elizabeth-holmes-29aa9b370',
   },
   {
+    name: 'Shreya Ranawat',
+    positions: ['Sponsorship and Grant Coordinator'],
+    linkedin: 'shreya-ranawat-72656035b',
+  },
+  {
     name: 'Lake Zhou',
     positions: ['Curriculum Developer'],
     linkedin: 'lake-zhou-3183902a8',
