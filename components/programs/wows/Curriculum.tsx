@@ -29,7 +29,7 @@ export default function Curriculum() {
           title="Women in Finance"
           darkerBg={true}
           slideLink="https://docs.google.com/presentation/d/1Ekc3NYvH2QCO7kACwjNjWZO3N-rRqOR7fqHdRIKfTOs/embed#slide=id.p"
-          content="Created by Manesh Yandra"
+          content="Created by Mahesh Yandra"
         />
       </div>
     </div>
