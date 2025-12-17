@@ -9,9 +9,10 @@ const speakers = [
   },
   {
     date: 'November 16, 2024',
-    name: "Lesley Mace",
-    occupation: 'Senior Outreach Advisor at the Federal Reserve Bank of Atlanta’s Birmingham Branch',
-    bio: 'Lesley Mace is a Senior Outreach Advisor at the Federal Reserve Bank of Atlanta’s Birmingham Branch. Prior to joining the Fed in 2010, she was an Instructor of Economics and Director of the Center for Economic Education at Auburn University Montgomery and a high school economics teacher. Lesley has also served as an adjunct faculty member at Florida State College Jacksonville and Daytona State College. A native of Auburn, Alabama, Lesley holds a B.A. in Economics and Foreign Language and a M.S. in Economics from Auburn University.'
+    name: 'Lesley Mace',
+    occupation:
+      'Senior Outreach Advisor at the Federal Reserve Bank of Atlanta’s Birmingham Branch',
+    bio: 'Lesley Mace is a Senior Outreach Advisor at the Federal Reserve Bank of Atlanta’s Birmingham Branch. Prior to joining the Fed in 2010, she was an Instructor of Economics and Director of the Center for Economic Education at Auburn University Montgomery and a high school economics teacher. Lesley has also served as an adjunct faculty member at Florida State College Jacksonville and Daytona State College. A native of Auburn, Alabama, Lesley holds a B.A. in Economics and Foreign Language and a M.S. in Economics from Auburn University.',
   },
   {
     date: 'November 11, 2023',
@@ -23,13 +24,13 @@ const speakers = [
     date: 'November 11, 2022',
     name: 'Lindsey Cameron',
     occupation: 'Professor @ UPenn Wharton',
-    bio: 'Lindsey D. Cameron is an assistant professor of management at the Wharton School, University of Pennsylvania and holds an appointment in the sociology department. She is a fellow (member) at the Institute of Advanced Studies in Princeton and a Faculty Affiliate at the Berkman Klein Center for Internet and Society for the 2023- 2024 academic year. She is a current affiliate and former faculty fellow at the Data and Society Research Institute. Her research focuses on how algorithmic management is changing the modern workplace, with an emphasis on the gig economy. Professor Cameron has an on-going, seven-year ethnography of the largest sector of the gig economy, the ride-hailing industry, examining how algorithms management changes managerial control. She recently completed a study on how the COVID-19 pandemic affected workers on various gig platforms (TaskRabbit, Instacart, AmazonFlex, Uber, Lyft, DoorDash). She is currently working on a project on how the gig economy’s business model adapts in the Global South, with a focus on the implications for management and workers.'
+    bio: 'Lindsey D. Cameron is an assistant professor of management at the Wharton School, University of Pennsylvania and holds an appointment in the sociology department. She is a fellow (member) at the Institute of Advanced Studies in Princeton and a Faculty Affiliate at the Berkman Klein Center for Internet and Society for the 2023- 2024 academic year. She is a current affiliate and former faculty fellow at the Data and Society Research Institute. Her research focuses on how algorithmic management is changing the modern workplace, with an emphasis on the gig economy. Professor Cameron has an on-going, seven-year ethnography of the largest sector of the gig economy, the ride-hailing industry, examining how algorithms management changes managerial control. She recently completed a study on how the COVID-19 pandemic affected workers on various gig platforms (TaskRabbit, Instacart, AmazonFlex, Uber, Lyft, DoorDash). She is currently working on a project on how the gig economy’s business model adapts in the Global South, with a focus on the implications for management and workers.',
   },
   {
     date: '',
     name: 'Sven Beiker',
     occupation: 'Lecturer @ Stanford',
-    bio: 'Dr. Sven Beiker is a Lecturer in Management at the Stanford Business School, and the Managing Director of Silicon Valley Mobility, an independent consulting & advisory firm. He covers the electrification, automation, connectivity, and sharing of automobiles through the lens of new technologies and business models. This is reflected in his teaching at Stanford as well as in his professional engagements. Prior to his independent consulting work, he served as an Expert Consultant for mobility topics at McKinsey & Company for 2.5 years.'
+    bio: 'Dr. Sven Beiker is a Lecturer in Management at the Stanford Business School, and the Managing Director of Silicon Valley Mobility, an independent consulting & advisory firm. He covers the electrification, automation, connectivity, and sharing of automobiles through the lens of new technologies and business models. This is reflected in his teaching at Stanford as well as in his professional engagements. Prior to his independent consulting work, he served as an Expert Consultant for mobility topics at McKinsey & Company for 2.5 years.',
   },
   {
     date: 'January 31, 2021',
@@ -183,6 +184,14 @@ const speakers = [
     vids: ['https://www.youtube.com/watch?v=xsPGvh-wTnU'],
     occupation: 'Owner of Big Basin Burger Bar',
     bio: 'Janice Albright is the owner of Big Basin Burger, a successful burger restaurant in downtown Saratoga that first opened in 2015. Big Basin Burger Bar won Best of Los Gatos-Saratoga Look 2017 awards and received awards of excellence by the Saratoga City Council.',
+  },
+  {
+    date: 'November 12, 2025',
+    name: 'Christina Brown',
+    host: 'YEI Econbowl',
+    vids: [],
+    occupation: 'Professor at University of Chicago',
+    bio: 'Christina Brown is an Assistant Professor in Economics, specializing in development economics with a focus on labor and behavioral economics. Her research examines labor and education market imperfections, particularly surrounding asymmetric information. Brown is affiliated with BREAD and J-PAL, and has consulted for the World Bank and Save the Children. She earned her Ph.D. in Economics from UC Berkeley.',
   },
 ]
 
