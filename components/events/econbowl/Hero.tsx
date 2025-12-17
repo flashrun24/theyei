@@ -96,17 +96,19 @@ export default function Hero() {
                   economics knowledge in a fast-paced environment. Represent
                   your high school, compete for glory, and win cash prizes!
                 </p>
-                {/* <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
-                  Registration for EconBowl will open mid-September. For questions, please email <a
+                <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
+                  Registration for EconBowl will open mid-September. For
+                  questions, please email{' '}
+                  <a
                     className="text-yei-primary-darker font-medium"
                     href="mailto:events@theyei.org"
                   >
                     events@theyei.org
                   </a>{' '}
                   .
-                </p> */}
+                </p>
 
-                <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
+                {/*<p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
                   <b>
                     Registration will close on November 12, 2025 at 11:59 PST
                     (UTC−8).
@@ -114,7 +116,7 @@ export default function Hero() {
                   The competition will be held on November 16, 9:00 AM PST
                   through Zoom. Written round qualifiers be at 4:00 pm PST for
                   finalists.
-                </p>
+                </p>*/}
                 {/* <AnchorLink
                   href="#register"
                   offset={100}
@@ -122,12 +124,12 @@ export default function Hero() {
                 >
                   Register!
                 </AnchorLink> */}
-                <a
+                {/*<a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSfCBuC-cazFVP-Ntv-UhlZv_zs-5M5J3NBTp0NYNwY57EyWxg/viewform?usp=header"
                   className="mt-4 inline-flex w-auto items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yei-primary-main hover:bg-opacity-90 sm:px-8"
                 >
                   Register!
-                </a>
+                </a>*/}
               </div>
             </div>
           </main>
