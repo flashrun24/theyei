@@ -40,9 +40,9 @@ const exec: Member[] = [
     linkedin: 'eric-bagg-b9180b26a',
   },
   {
-    name: 'Abhinav Arun',
+    name: 'Manan Dua',
     positions: ['VP of Finance'],
-    linkedin: 'abhinav-a-2577a2285',
+    linkedin: 'manan-dua-9329172bb',
   },
   {
     name: 'Gaathri Chakka',
@@ -154,11 +154,6 @@ const team: Member[] = [
     name: 'Linus Li',
     positions: ['YEI Podcast Co-Director'],
     linkedin: 'linus-li-6295042a2',
-  },
-  {
-    name: 'Manan Dua',
-    positions: ['Head Event Coordinator'],
-    linkedin: 'manan-dua-9329172bb',
   },
   {
     name: 'Akshat Ranjan',
