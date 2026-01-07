@@ -162,7 +162,7 @@ const team: Member[] = [
   },
   {
     name: 'Eli Orbach',
-    positions: ['Event Coordinator'],
+    positions: ['Head Event Coordinator'],
     linkedin: 'eli-orbach-92a0b2341',
   },
   {
