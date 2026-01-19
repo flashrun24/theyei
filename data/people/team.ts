@@ -131,6 +131,11 @@ const team: Member[] = [
     linkedin: 'shreya-ranawat-72656035b',
   },
   {
+    name: 'Yashvi Ghelani',
+    positions: ['Sponsorship and Grant Coordinator'],
+    linkedin: 'yashvi-ghelani-807631364',
+  },
+  {
     name: 'Lake Zhou',
     positions: ['Curriculum Developer'],
     linkedin: 'lake-zhou-3183902a8',
@@ -149,6 +154,10 @@ const team: Member[] = [
     name: 'Ishika Chakraborty',
     positions: ['Curriculum Developer'],
     linkedin: 'ishika-chakraborty-5bb10a336',
+  },
+  {
+    name: 'Caleb Son',
+    positions: ['Curriculum Developer'],
   },
   {
     name: 'Linus Li',
