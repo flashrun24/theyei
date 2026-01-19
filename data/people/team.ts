@@ -166,11 +166,6 @@ const team: Member[] = [
     linkedin: 'eli-orbach-92a0b2341',
   },
   {
-    name: 'William Kozoman',
-    positions: ['Event Coordinator'],
-    linkedin: 'william-kozoman',
-  },
-  {
     name: 'Chriselle Varghese',
     positions: ['Team Ambassador'],
     linkedin: 'chriselle-varghese-541744220',
