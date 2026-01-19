@@ -165,14 +165,19 @@ const team: Member[] = [
     linkedin: 'linus-li-6295042a2',
   },
   {
+    name: 'Eli Orbach',
+    positions: ['Head Event Coordinator'],
+    linkedin: 'eli-orbach-92a0b2341',
+  },
+  {
     name: 'Akshat Ranjan',
     positions: ['Event Coordinator'],
     linkedin: 'akshat-ranjan-b42416358',
   },
   {
-    name: 'Eli Orbach',
-    positions: ['Head Event Coordinator'],
-    linkedin: 'eli-orbach-92a0b2341',
+    name: 'Benjamin Zheng',
+    positions: ['Event Coordinator'],
+    linkedin: 'benjamin-zheng-261346396',
   },
   {
     name: 'Chriselle Varghese',
@@ -235,6 +240,10 @@ const team: Member[] = [
     linkedin: 'kaitlyn-kwong-6136212aa',
   },
   {
+    name: 'Hai-Nam Le',
+    positions: ['Marketing Specialist'],
+  },
+  {
     name: 'Emma Awoseyi',
     positions: ['Sponsorship and Grant Coordinator', 'Regional Ambassador'],
     linkedin: 'emma-awoseyi',
@@ -243,11 +252,6 @@ const team: Member[] = [
     name: 'Nikhil Kumar',
     positions: ['Sponsorship and Grant Coordinator', 'Regional Ambassador'],
     linkedin: 'nikhilkumarusa',
-  },
-  {
-    name: 'Pratyaksha Sharma',
-    positions: ['Regional Ambassador'],
-    linkedin: 'pratyaksha-sharma-30a60a23b',
   },
   {
     name: 'Sean Young',
@@ -272,11 +276,6 @@ const team: Member[] = [
     name: 'Alex Melendy',
     positions: ['Regional Ambassador'],
     linkedin: 'alexmelendy',
-  },
-  {
-    name: 'Dinassyl Smadil',
-    positions: ['Regional Ambassador'],
-    linkedin: 'dinassyl-smadil',
   },
   {
     name: 'Nikhil Godbole',
