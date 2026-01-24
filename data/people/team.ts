@@ -136,6 +136,11 @@ const team: Member[] = [
     linkedin: 'yashvi-ghelani-807631364',
   },
   {
+    name: 'Linus Li',
+    positions: ['YEI Podcast Co-Director'],
+    linkedin: 'linus-li-6295042a2',
+  },
+  {
     name: 'Lake Zhou',
     positions: ['Curriculum Developer'],
     linkedin: 'lake-zhou-3183902a8',
@@ -160,9 +165,8 @@ const team: Member[] = [
     positions: ['Curriculum Developer'],
   },
   {
-    name: 'Linus Li',
-    positions: ['YEI Podcast Co-Director'],
-    linkedin: 'linus-li-6295042a2',
+    name: 'Aarav Gupta',
+    positions: ['Curriculum Developer'],
   },
   {
     name: 'Eli Orbach',
@@ -241,6 +245,10 @@ const team: Member[] = [
   },
   {
     name: 'Hai-Nam Le',
+    positions: ['Marketing Specialist'],
+  },
+  {
+    name: 'Aine Kim',
     positions: ['Marketing Specialist'],
   },
   {
