@@ -9,7 +9,16 @@ export default function Prompt() {
           <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 md:justify-center">
             <div className="">
               <p className="text-xl font-medium mt-4 ml-1 text-gray-700">
-                Evaluate the motivations and short/long-term political, economic, and social impacts of President Trump’s protectionist policies. Then, propose alternative policy solutions to address their challenges and/or unintended consequences, either as supplements or replacements.
+                Rising prescription drug prices have led to discussions about
+                using price ceilings, an economic tool that can lower costs for
+                patients but may also lead to reduced supply and/or weaker
+                incentives for the development of new treatments. Policymakers
+                need to balance these possible benefits and drawbacks while
+                considering how any approach would affect affordability, access,
+                long-term costs, and equity. Your team is presenting to
+                officials from the Department of Health and Human Services, and
+                your presentation should explain the economic impacts of price
+                ceilings, weigh other solutions, and offer a clear path forward.
               </p>
             </div>
             {/* <div className="md:w-1/2">

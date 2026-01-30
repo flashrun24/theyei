@@ -11,7 +11,7 @@ import React from 'react'
  */
 const reasons = [
   {
-    title: 'March 1st, 2025',
+    title: 'February 15th, 2026',
     content: (
       <>
         <b>Prompts released (asynchronous).</b>
@@ -31,15 +31,15 @@ const reasons = [
     ),
   },
   {
-    title: 'March 1st, 2025 - May 1st, 2025',
+    title: 'February 15th, 2026 - May 1st, 2026',
     content: (
       <>
         <b>
           Prepare presentations (asynchronous).
           <br />
         </b>{' '}
-        Groups will have 6 weeks to research, collaborate, and record their
-        presentations. Upload and submit your video by 11:59pm PST on May 1st (DEADLINE EXTENDED).
+        Groups will have 10 weeks to research, collaborate, and record their
+        presentations. Upload and submit your video by 11:59pm PST on May 1st.
         <br />
         {/* <p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
           <a
@@ -56,7 +56,7 @@ const reasons = [
     ),
   },
   {
-    title: 'May 17th, 2025',
+    title: 'May 17th, 2026',
     content: (
       <>
         <b>
@@ -73,7 +73,7 @@ const reasons = [
     ),
   },
   {
-    title: 'May 24th, 2025',
+    title: 'May 24th, 2026',
     content: (
       <>
         <b>
@@ -81,7 +81,7 @@ const reasons = [
           <br />
         </b>{' '}
         Qualifying teams will have the chance to debate each other on a new
-        prompt. 
+        prompt.
       </>
     ),
   },
