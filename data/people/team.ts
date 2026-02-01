@@ -97,6 +97,11 @@ const team: Member[] = [
     linkedin: 'mahesh-y-b96716334',
   },
   {
+    name: 'Satya Dindi',
+    positions: ['FLIP Marketing Manager & Team Ambassador'],
+    linkedin: 'satya-dindi',
+  },
+  {
     name: 'Kioni Chong',
     positions: ['Sponsorship and Grant Coordinator'],
   },
@@ -202,11 +207,6 @@ const team: Member[] = [
     name: 'Maite Miguez',
     positions: ['Team Ambassador'],
     linkedin: 'maite-miguez-00948a2b1',
-  },
-  {
-    name: 'Satya Dindi',
-    positions: ['Team Ambassador'],
-    linkedin: 'satya-dindi',
   },
   {
     name: 'Aditi Gandhi',
