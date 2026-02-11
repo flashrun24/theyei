@@ -119,19 +119,14 @@ export default function Info() {
             </span>
           </h1>
           <p className="mt-8 text-xl text-gray-500 leading-8">
-            EconOlympiad is a two-part competition focused on not just the
-            knowledge of economics, but also the application. The first part is
-            a presentation round in which you and your team will have three
-            weeks to develop and submit a video that responds to a provided
-            prompt. The second part is a debate round. After completing the
-            presentation, top teams will advance to a debate round. A prompt
-            will be released, and teams will have one week to research and
-            prepare. Results from both rounds will compose your team’s final
-            score.
+            EconOlympiad is a competition focused on not just the knowledge of
+            economics, but also the application. It has a presentation round in
+            which you and your team will have ten weeks to develop and submit a
+            video that responds to a provided prompt.
           </p>
           <p className="mt-6 text-xl text-gray-500 leading-8">
             Professors from the country’s top economics programs will serve as
-            judges for both the presentation and debate rounds.
+            judges.
           </p>
 
           {/* <a
@@ -149,9 +144,9 @@ export default function Info() {
           <p>
             Competitors will have up to three week to create their presentation
             up to 10 minutes in duration. There will be a prompt that focuses on
-            Macroeconomics concepts. Your group will have a chance to research
-            the prompts, take a position, provide facts to support your
-            argument, and use your reasoning to tie it all together.
+            economics concepts. Your group will have a chance to research the
+            prompts, take a position, provide facts to support your argument,
+            and use your reasoning to tie it all together.
           </p>
           {/*<h2>Debate Round</h2>
           <p>
