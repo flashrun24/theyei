@@ -10,13 +10,13 @@ export default function Prizes() {
             Prize
           </h2>
           <p className="mt-3 text-xl text-indigo-200 sm:mt-4">
-            The “YEI’s bid for the International Economics Olympiad” refers to
-            our official endorsement for a team to participate in the IEO. The
-            IEO is a prestigious annual international competition for high
-            school students in economics and finance. Since participation
-            requires an organizational endorsement and each organization may
-            send only one team, our bid serves as the formal support needed for
-            entry.
+            The winning team receives YEI's bid for the International Economics
+            Olympiad. This refers to our official endorsement for a team to
+            participate in the IEO. The IEO is a prestigious annual
+            international competition for high school students in economics and
+            finance. Since participation requires an organizational endorsement
+            and each organization may send only one team, our bid serves as the
+            formal support needed for entry.
           </p>
         </div>
         {/*<dl className="mt-10 text-center sm:max-w-3xl items-center sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8">
