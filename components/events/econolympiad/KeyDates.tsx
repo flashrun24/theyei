@@ -63,8 +63,7 @@ const reasons = [
       </>
     ),
   },
-  {
-    /*{
+  /* {
     title: 'May 17th, 2026',
     content: (
       <>
@@ -93,8 +92,7 @@ const reasons = [
         prompt.
       </>
     ),
-  },*/
-  },
+  }, */
 ]
 
 export default function KeyDates() {
