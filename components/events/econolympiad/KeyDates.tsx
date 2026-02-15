@@ -39,7 +39,7 @@ const reasons = [
           <br />
         </b>{' '}
         Groups will have 10 weeks to research, collaborate, and record their
-        presentations. Upload and submit your video by 11:59pm PST on May 1st.
+        presentations.
         <br />
         {/* <p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
           <a
@@ -56,6 +56,15 @@ const reasons = [
     ),
   },
   {
+    title: 'May 1st, 2026',
+    content: (
+      <>
+        <b>Upload and submit your video by 11:59pm PST on May 1st.</b>
+      </>
+    ),
+  },
+  {
+    /*{
     title: 'May 17th, 2026',
     content: (
       <>
@@ -84,6 +93,7 @@ const reasons = [
         prompt.
       </>
     ),
+  },*/
   },
 ]
 
