@@ -245,6 +245,7 @@ const team: Member[] = [
   {
     name: 'Aine Kim',
     positions: ['Marketing Specialist'],
+    linkedin: 'aine-kim-71a3923a9',
   },
   {
     name: 'Emma Awoseyi',
