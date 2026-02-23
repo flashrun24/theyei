@@ -7,6 +7,7 @@ import ApplicationCriteria from '../components/programs/flip/ApplicationCriteria
 import Curriculum from '../components/programs/flip/Curriculum'
 import Event from '../components/programs/flip/Event'
 import Banner from '../components/global/Header/Banner'
+import Report from '../components/programs/flip/Report'
 
 export default function flip() {
   return (
@@ -19,6 +20,7 @@ export default function flip() {
         desc="YEI’s Financial Literacy Introduction Program (FLIP) is the service arm of our organization. Through FLIP, our members are empowered to educate their community on Financial Literacy with our comprehensive curriculum and support network."
         applyLink="https://docs.google.com/forms/d/1bjyw2csfGtJRDt4UFgCU1eyrCIV_nKECSY4LNDfvSH4/viewform"
       />
+      <Report />
       {/* <Event /> */}
       <Curriculum />
 
