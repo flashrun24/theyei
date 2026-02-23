@@ -141,6 +141,10 @@ const team: Member[] = [
     linkedin: 'yashvi-ghelani-807631364',
   },
   {
+    name: 'Riya Mukherjee',
+    positions: ['Sponsorship and Grant Coordinator'],
+  },
+  {
     name: 'Linus Li',
     positions: ['YEI Podcast Co-Director'],
     linkedin: 'linus-li-6295042a2',
@@ -187,6 +191,11 @@ const team: Member[] = [
     name: 'Benjamin Zheng',
     positions: ['Event Coordinator'],
     linkedin: 'benjamin-zheng-261346396',
+  },
+  {
+    name: 'Swarnika Naik',
+    positions: ['Event Coordinator'],
+    linkedin: 'swarnika-naik-0b0505399',
   },
   {
     name: 'Chriselle Varghese',
