@@ -64,12 +64,12 @@ export default function Report() {
                 </h1>
                 <div className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                   <p className="mt-3 ">
-                    Led by VP (of FLIP) Prasanna Chandankhede, alongside Mahesh
-                    Yandra and Sricharan Bala, FLIP launched a global project to
-                    better understand gaps in youth financial development. We
-                    surveyed students across nine countries, using direct
-                    outreach and social media to gather real insights into how
-                    young people actually manage money.
+                    By Mahesh Yandra, Sricharan Bala Under VP of FLIP Prasanna
+                    Chandankhede, FLIP launched a global project to better
+                    understand gaps in youth financial development. We surveyed
+                    students across nine countries, using direct outreach and
+                    social media to gather real insights into how young people
+                    actually manage money.
                   </p>
                   <p className="mt-3 ">
                     Our analysis revealed what we call the “Financial Action
