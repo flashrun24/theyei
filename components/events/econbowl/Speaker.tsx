@@ -14,8 +14,8 @@ export default function Speaker() {
               <div className="rounded-xl shadow-xl overflow-hidden lg:h-full">
                 <img
                   className="object-cover lg:h-full lg:w-full"
-                  src="/img/people/speakers/michelle-connolly.jpg"
-                  alt="Michelle Connolly"
+                  src="/img/people/speakers/cbrown.png"
+                  alt="Christina Brown"
                 />
               </div>
             </div>
@@ -26,8 +26,8 @@ export default function Speaker() {
                 <div className="block lg:hidden pt-14 sm:pt-20">
                   <img
                     className="w-52 sm:w-64 rounded shadow-sm"
-                    src="/img/people/speakers/michelle-connolly.jpg"
-                    alt="Michelle Connolly"
+                    src="/img/people/speakers/cbrown.png"
+                    alt="Christina Brown"
                   />
                 </div>
                 <div className="mt-6 text-base text-white">
@@ -35,25 +35,19 @@ export default function Speaker() {
                     About the Speaker
                   </h1>
                   <p className="mt-3 font-light text-gray-300">
-                    Our featured speaker for the Fifth Annual EconBowl is{' '}
-                    <b>Michelle Connolly</b>, Professor of the Practice
-                    in the Economics Department at Duke University.
+                    Our featured speaker for the Sixth Annual EconBowl is{' '}
+                    <b>Christina Brown</b>, assistant professor in economics at
+                    UChicago.
                   </p>{' '}
                   <p className="mt-3 font-light text-gray-300">
-                    Professor Connolly previously served as Chief Economist of 
-                    the Federal Communications Commission in 2006-2007 and 
-                    2008-2009, and as an Economist in International Research for
-                    the Federal Reserve Bank of New York from 1996 to 1997. 
-                    Professor Connolly has testified before Congress and 
-                    participated in White House Panels and Roundtables on Spectrum 
-                    Issues and International Trade Policy.Michelle Connolly received 
-                    her B.A. in 1990 and Ph.D. in 1996 in economics from Yale 
-                    University.
+                    Brown is affiliated with BREAD and J-PAL, and has consulted
+                    for the World Bank and Save the Children. She earned her
+                    Ph.D. in Economics from UC Berkeley.
                   </p>
                   <p className="mt-3 font-light text-gray-300">
-                    Professor Connolly's current research focuses on 
-                    telecommunications policy, particularly spectrum policy and 
-                    broadband policy.
+                    Professor Brown's current research examines labor and
+                    education market imperfections, particularly surrounding
+                    asymmetric information.
                   </p>
                 </div>
               </div>
