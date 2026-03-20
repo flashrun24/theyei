@@ -19,23 +19,13 @@ export default function CTA() {
             </a>
           </div>
           <div className="ml-3 inline-flex">
-            <form
-              action="https://www.paypal.com/donate"
-              method="post"
+            <a
               target="_blank"
+              href="https://account.venmo.com/u/youtheconomicsinitiative"
+              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-yei-primary-dark bg-yei-secondary-brighter hover:bg-yei-secondary-main text-white"
             >
-              <input
-                type="hidden"
-                name="hosted_button_id"
-                defaultValue="99E63279HUDNW"
-              />
-              <button
-                type="submit"
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-yei-primary-dark bg-yei-secondary-brighter hover:bg-yei-secondary-main text-white"
-              >
-                Donate
-              </button>
-            </form>
+              Donate
+            </a>
           </div>
         </div>
       </div>
