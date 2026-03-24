@@ -45,6 +45,8 @@ export default function AllBlogs() {
     'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ntadepalli24'
   const mediumUrl3 =
     'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@dyaveroglu'
+  const mediumUrl4 =
+    'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sricharan_64119'
 
   useEffect(() => {
     axios.get(mediumUrl).then((data) => {
@@ -107,8 +109,28 @@ export default function AllBlogs() {
       })
     })
 
+    axios.get(mediumUrl3).then((data) => {
+      data.data.items.forEach((article: any) => {
+        setNewBlogs1((prevBlogs) => [
+          ...prevBlogs,
+          {
+            account: data.data.feed.link,
+            author: article.author,
+            content: article.content,
+            description: article.description,
+            pubLink: article.link,
+            pubDate: article.pubDate,
+            thumbnail: article.thumbnail,
+            title: article.title,
+            image: data.data.feed.image,
+            blog: `/blog/${StringToSlug(article.title)}`,
+          },
+        ])
+      })
+    })
+
     axios
-      .get(mediumUrl3)
+      .get(mediumUrl4)
       .then((data) => {
         data.data.items.forEach((article: any) => {
           setNewBlogs1((prevBlogs) => [
