@@ -7,6 +7,7 @@ export default function AllBlogs() {
   let [blogs, setBlogs] = useState([])
   let [newBlogs, setNewBlogs] = useState([])
   let [newBlogs1, setNewBlogs1] = useState([])
+  let [newBlogs2, setNewBlogs2] = useState([])
   let combinedBlogs = []
 
   function GetDate(date: String) {
@@ -133,7 +134,7 @@ export default function AllBlogs() {
       .get(mediumUrl4)
       .then((data) => {
         data.data.items.forEach((article: any) => {
-          setNewBlogs1((prevBlogs) => [
+          setNewBlogs2((prevBlogs) => [
             ...prevBlogs,
             {
               account: data.data.feed.link,
@@ -222,7 +223,7 @@ export default function AllBlogs() {
               </div>
             </div>
           )}
-          {[...newBlogs1, ...newBlogs, ...blogs].map((post) => (
+          {[...newBlogs2, ...newBlogs1, ...newBlogs, ...blogs].map((post) => (
             <div key={post.title} className="flex flex-col ">
               <div className="flex-1 bg-white p-6 flex flex-col justify-between rounded-lg border border-gray-200 shadow-md hover:shadow-lg">
                 <div className="flex-1">
