@@ -83,7 +83,7 @@ export default function Hero() {
                   <p className="mt-4">
                     Interested? EconOlympiad is open to ALL middle and high
                     school students! Submit your presentation by{' '}
-                    <strong>May 1st at 11:59pm PST</strong>.
+                    <strong>May 15th at 11:59pm PST</strong>.
                   </p>
                 </div>
                 <div>

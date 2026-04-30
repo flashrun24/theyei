@@ -31,7 +31,7 @@ const reasons = [
     ),
   },
   {
-    title: 'February 15th, 2026 - May 1st, 2026',
+    title: 'February 15th, 2026 - May 15th, 2026',
     content: (
       <>
         <b>
@@ -56,10 +56,10 @@ const reasons = [
     ),
   },
   {
-    title: 'May 1st, 2026',
+    title: 'May 15th, 2026',
     content: (
       <>
-        <b>Upload and submit your video by 11:59pm PST on May 1st.</b>
+        <b>Upload and submit your video by 11:59pm PST on May 15th.</b>
       </>
     ),
   },
