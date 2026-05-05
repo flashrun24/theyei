@@ -50,9 +50,9 @@ const exec: Member[] = [
     linkedin: 'eli-orbach-92a0b2341',
   },
   {
-    name: 'Matias Buitrago',
+    name: 'Nathan Raja',
     positions: ['VP of Clubs'],
-    linkedin: 'matias-buitrago-53129a307',
+    linkedin: 'nathan-raja-06126b256',
   },
   {
     name: 'Deniz Yaveroglu',
