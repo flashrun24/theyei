@@ -15,7 +15,12 @@ export default function WorkshopSlider() {
   ]
 
   return (
-    <Carousel breakPoints={bp} renderArrow={Arrow} pagination={false}>
+    <Carousel
+      breakPoints={bp}
+      renderArrow={Arrow}
+      pagination={false}
+      isRTL={false}
+    >
       {speakers.slice(0, 10).map((speaker) => {
         let key = speaker.name.replace(/[\W_]+/g, '-').toLowerCase()
         return (

@@ -22,7 +22,7 @@
     "@vercel/analytics": "^0.1.11",
     "airtable": "^0.11.5",
     "autoprefixer": "^10.1.0",
-    "axios": "^0.21.4",
+    "axios": "^0.27.2",
     "formik": "^2.2.6",
     "leaflet": "^1.7.1",
     "mapbox-gl": "^2.9.2",
@@ -34,7 +34,7 @@
     "react-axios": "^2.0.5",
     "react-countup": "^4.3.3",
     "react-dom": "^17.0.2",
-    "react-elastic-carousel": "^0.10.0",
+    "react-elastic-carousel": "^0.11.5",
     "react-intersection-observer": "^8.31.0",
     "react-jotform-embed": "^1.1.2",
     "react-leaflet": "^3.2.5",
@@ -49,7 +49,6 @@
     "yup": "^0.32.8"
   },
   "devDependencies": {
-    "@tailwindcss/custom-forms": "^0.2.1",
     "@types/gtag.js": "^0.0.4",
     "prettier": "2.3.2"
   }

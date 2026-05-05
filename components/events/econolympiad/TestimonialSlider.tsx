@@ -8,41 +8,35 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 export default function SpeakerSlider() {
-  const carouselRef = useRef(null);
-  const bp = [
-    { width: 1, itemsToShow: 1 },
-  ]
+  const carouselRef = useRef(null)
+  const bp = [{ width: 1, itemsToShow: 1 }]
 
   return (
     <Carousel
       ref={carouselRef}
-      showArrows={false} 
+      showArrows={false}
       pagination={false}
-      breakPoints={bp} 
-      enableAutoPlay 
+      breakPoints={bp}
+      enableAutoPlay
       enableSwipe
       enableMouseSwipe
       autoPlaySpeed={3000}
+      isRTL={false}
       onNextEnd={({ index }) => {
         if (index === 2) {
-            if (carouselRef?.current?.goTo) {
-                setTimeout(() => {
-                    if (carouselRef?.current?.goTo) {
-                        carouselRef.current.goTo(0)
-                    }
-                }, 3000)
-            }
+          if (carouselRef?.current?.goTo) {
+            setTimeout(() => {
+              if (carouselRef?.current?.goTo) {
+                carouselRef.current.goTo(0)
+              }
+            }, 3000)
+          }
         }
       }}
     >
       {testimonials.slice(0, 10).map((quote) => {
         let key = quote.content.replace(/[\W_]+/g, '-').toLowerCase()
-        return (
-          <SlideItem
-            key={key}
-            text={quote.content}
-          />
-        )
+        return <SlideItem key={key} text={quote.content} />
       })}
     </Carousel>
   )
