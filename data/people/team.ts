@@ -8,14 +8,14 @@ type Member = {
 
 const exec: Member[] = [
   {
-    name: 'Kayla Lin',
+    name: 'Gaathri Chakka',
     positions: ['Chief Executive Officer'],
-    linkedin: 'kayla-l-22b603238',
+    linkedin: 'gaathri-chakka-b20308279',
   },
   {
-    name: 'Jeffery Liu',
+    name: 'Prasanna Chandankhede',
     positions: ['Chief Operating Officer'],
-    linkedin: 'jeffery-liu-aba437278',
+    linkedin: 'prasanna-chandankhede-328749287',
   },
   {
     name: 'Eric Lin',
@@ -30,14 +30,14 @@ const exec: Member[] = [
     github: 'flashrun24',
   },
   {
-    name: 'Kunyuan Zou',
+    name: 'Serena Lin',
     positions: ['VP of Marketing'],
-    linkedin: 'kunyuan-zou-70869924a',
+    linkedin: 'serena-lin-737796394',
   },
   {
-    name: 'Eric Bagg',
+    name: 'Drona Gaddam',
     positions: ['VP of Resources'],
-    linkedin: 'eric-bagg-b9180b26a',
+    linkedin: 'drona-gaddam-359a07281',
   },
   {
     name: 'Manan Dua',
@@ -45,9 +45,9 @@ const exec: Member[] = [
     linkedin: 'manan-dua-9329172bb',
   },
   {
-    name: 'Gaathri Chakka',
+    name: 'Eli Orbach',
     positions: ['VP of Events'],
-    linkedin: 'gaathri-chakka-b20308279',
+    linkedin: 'eli-orbach-92a0b2341',
   },
   {
     name: 'Matias Buitrago',
@@ -55,9 +55,9 @@ const exec: Member[] = [
     linkedin: 'matias-buitrago-53129a307',
   },
   {
-    name: 'Prasanna Chandankhede',
+    name: 'Deniz Yaveroglu',
     positions: ['VP of FLIP'],
-    linkedin: 'prasanna-chandankhede-328749287',
+    linkedin: 'deniz-yaveroglu-b194bb2ba',
   },
 ]
 
@@ -66,23 +66,6 @@ const team: Member[] = [
     name: 'Michael Zhao',
     positions: ['Director of FLIP'],
     linkedin: 'michael-zhao-bb051b256',
-  },
-  {
-    name: 'Yelim Lee',
-    positions: ['Club Associate'],
-    linkedin: 'yelim-lee-354894239',
-  },
-  {
-    name: 'Drona Gaddam',
-    positions: [
-      'Finance Team and Curriculum Developer and YEI Podcast Co-Director',
-    ],
-    linkedin: 'drona-gaddam-359a07281',
-  },
-  {
-    name: 'Deniz Yaveroglu',
-    positions: ['FLIP partnership manager'],
-    linkedin: 'deniz-yaveroglu-b194bb2ba',
   },
   {
     name: 'Sricharan Bala',
@@ -145,6 +128,11 @@ const team: Member[] = [
     positions: ['Sponsorship and Grant Coordinator'],
   },
   {
+    name: 'Christine Idika Kalu',
+    positions: ['Sponsorship and Grant Coordinator'],
+    linkedin: 'christine-idika-kalu-503a08384',
+  },
+  {
     name: 'Linus Li',
     positions: ['YEI Podcast Co-Director'],
     linkedin: 'linus-li-6295042a2',
@@ -178,9 +166,14 @@ const team: Member[] = [
     positions: ['Curriculum Developer'],
   },
   {
-    name: 'Eli Orbach',
-    positions: ['Head Event Coordinator'],
-    linkedin: 'eli-orbach-92a0b2341',
+    name: 'Windsor Kiang',
+    positions: ['Curriculum Developer'],
+    linkedin: 'windsor-kiang-903299308',
+  },
+  {
+    name: 'Lydia Liu',
+    positions: ['Curriculum Developer'],
+    linkedin: 'lydia-liu-993284338',
   },
   {
     name: 'Akshat Ranjan',
@@ -228,6 +221,11 @@ const team: Member[] = [
     linkedin: 'lucas-jiang-7090a8398',
   },
   {
+    name: 'Viyan Patel',
+    positions: ['Team Ambassador'],
+    linkedin: 'viyanpatel',
+  },
+  {
     name: 'Kayla Anderson',
     positions: ['Marketing Specialist'],
     linkedin: '-kayla-anderson-',
@@ -255,44 +253,6 @@ const team: Member[] = [
     name: 'Aine Kim',
     positions: ['Marketing Specialist'],
     linkedin: 'aine-kim-71a3923a9',
-  },
-  {
-    name: 'Emma Awoseyi',
-    positions: ['Sponsorship and Grant Coordinator', 'Regional Ambassador'],
-    linkedin: 'emma-awoseyi',
-  },
-  {
-    name: 'Nikhil Kumar',
-    positions: ['Sponsorship and Grant Coordinator', 'Regional Ambassador'],
-    linkedin: 'nikhilkumarusa',
-  },
-  {
-    name: 'Sean Young',
-    positions: ['Regional Ambassador'],
-    linkedin: 'sean-young-4504531a2',
-  },
-  {
-    name: 'Samay Sikri',
-    positions: ['Regional Ambassador'],
-    linkedin: 'samaysikri',
-  },
-  {
-    name: 'Tarun Bhuyan',
-    positions: ['Regional Ambassador'],
-    linkedin: 'tarunbhuyan',
-  },
-  {
-    name: 'Ayush Sharma',
-    positions: ['Regional Ambassador'],
-  },
-  {
-    name: 'Alex Melendy',
-    positions: ['Regional Ambassador'],
-    linkedin: 'alexmelendy',
-  },
-  {
-    name: 'Nikhil Godbole',
-    positions: ['Team Ambassador'],
   },
 ]
 
