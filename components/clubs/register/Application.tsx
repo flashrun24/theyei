@@ -19,14 +19,14 @@ export default function Application() {
   const form3 = useRef(null)
 
   const handleClick = (e) => {
-    [form1, form2, form3].map((form, i) => {
+    ;[form1, form2, form3].map((form, i) => {
       if (form.current)
         if (form.current.contains(document.activeElement)) setCurrPage(i)
     })
   }
 
   useEffect(() => {
-    [form1, form2, form3].map((form) => {
+    ;[form1, form2, form3].map((form) => {
       if (form.current) form.current.onclick = handleClick
     })
   }, [])
@@ -157,13 +157,13 @@ export default function Application() {
               }
               data.append(
                 '_cc',
-                'admin@theyei.org,williamchen@theyei.org,ashley@theyei.org,miriam@theyei.org,kavin@theyei.org,ian@theyei.org,expansion@theyei.org,henry@theyei.org,maria@theyei.org,matias@theyei.org'
+                'admin@theyei.org,williamchen@theyei.org,ashley@theyei.org,miriam@theyei.org,kavin@theyei.org,ian@theyei.org,expansion@theyei.org,henry@theyei.org,maria@theyei.org,matias@theyei.org,nathan@theyei.org'
               )
               data.append(
                 '_autoresponse',
                 'Hello,\nThank you for submitting the new club application for the YEI. Please schedule a time on my calendly to have an onboarding meeting where I can explain information about the YEI. Please let me know if you have any questions.\nThanks, Kavin.'
               )
-data.append('_replyto', values.email)
+              data.append('_replyto', values.email)
               data.append(
                 '_subject',
                 `New EconClub Application Submission (${
@@ -171,11 +171,14 @@ data.append('_replyto', values.email)
                 })`
               )
 
-              fetch('https://formsubmit.co/ajax/763f9f9043fabbe8d97bd76f0deb629e', {
-                method: 'POST',
-                mode: 'no-cors',
-                body: data,
-              })
+              fetch(
+                'https://formsubmit.co/ajax/763f9f9043fabbe8d97bd76f0deb629e',
+                {
+                  method: 'POST',
+                  mode: 'no-cors',
+                  body: data,
+                }
+              )
               resetForm({})
               setSubmitted(true)
               setSubmitting(false)

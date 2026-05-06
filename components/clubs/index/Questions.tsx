@@ -8,9 +8,11 @@ export default function Questions() {
           Questions?
         </h2>
         <div className="mt-6 pt-5 text-gray-600 text-xl pb-1">
-          If you have any questions related to EconClubs, please reach to our VP of clubs, Matias, by email at matias@theyei.org. 
+          If you have any questions related to EconClubs, please reach to our VP
+          of clubs, Nathan, by email at nathan@theyei.org.
         </div>
       </div>
     </div>
   )
 }
+
