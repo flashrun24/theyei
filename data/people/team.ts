@@ -24,10 +24,9 @@ const exec: Member[] = [
     email: 'ericlin@theyei.org',
   },
   {
-    name: 'Sepandar Farhood',
+    name: 'Shlok Acharya',
     positions: ['VP of Tech'],
-    linkedin: 'sepandar-farhood',
-    github: 'flashrun24',
+    linkedin: 'shlok-acharya-07941929b',
   },
   {
     name: 'Serena Lin',
