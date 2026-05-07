@@ -52,6 +52,7 @@ const exec: Member[] = [
     name: 'Nathan Raja',
     positions: ['VP of Clubs'],
     linkedin: 'nathan-raja-06126b256',
+    email: 'nathanraja@theyei.org',
   },
   {
     name: 'Deniz Yaveroglu',
