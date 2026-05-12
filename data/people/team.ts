@@ -58,6 +58,7 @@ const exec: Member[] = [
     name: 'Deniz Yaveroglu',
     positions: ['VP of FLIP'],
     linkedin: 'deniz-yaveroglu-b194bb2ba',
+    email: 'denizyav@theyei.org',
   },
 ]
 
