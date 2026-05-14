@@ -86,8 +86,8 @@ export default function wows() {
         boa={false}
       >
         <p>
-          YEI is excited to announce our brand new Women of Wall Street (WOWS)
-          program!
+          YEI the Women of Wall Street (WOWS) program, founded by Kayla Lin and
+          Alvina Lin, aims to empower economics, finance and business!
         </p>
         <p>
           Inviting female economists and business professionals to share their
