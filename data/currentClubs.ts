@@ -605,6 +605,11 @@ const clubs = [
     email: 'institutlancy@theyei.org',
     region: 'Geneve, Switzerland',
   },
+  {
+    name: 'Herbert Henry Dow High School',
+    email: 'herberthenryhs@theyei.org',
+    region: 'Midland, Michigan, USA',
+  },
 ]
 
 export default clubs
