@@ -192,6 +192,11 @@ const team: Member[] = [
     linkedin: 'swarnika-naik-0b0505399',
   },
   {
+    name: 'Viyan Patel',
+    positions: ['Team Ambassador', 'FLIP Social Media Manager'],
+    linkedin: 'viyanpatel',
+  },
+  {
     name: 'Chriselle Varghese',
     positions: ['Team Ambassador'],
     linkedin: 'chriselle-varghese-541744220',
@@ -220,11 +225,6 @@ const team: Member[] = [
     name: 'Lucas Jiang',
     positions: ['Team Ambassador'],
     linkedin: 'lucas-jiang-7090a8398',
-  },
-  {
-    name: 'Viyan Patel',
-    positions: ['Team Ambassador'],
-    linkedin: 'viyanpatel',
   },
   {
     name: 'Kayla Anderson',
