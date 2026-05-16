@@ -24,7 +24,7 @@ export default function econolympiad() {
       {/* <Recap /> */}
       <Info />
       <Prompt />
-      <Submit />
+      {/* <Submit /> */}
       <KeyDates />
       <Prizes />
       <Winners />
