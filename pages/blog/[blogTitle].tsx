@@ -58,7 +58,7 @@ export default function blog() {
     'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@dyaveroglu'
   const mediumURL4 =
     'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sricharan_64119'
-   const mediumUrl5 =
+   const mediumURL5 =
     'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@areninan11'
   useEffect(() => {
     if (!blogTitle) {
