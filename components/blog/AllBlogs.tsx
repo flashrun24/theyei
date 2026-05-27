@@ -171,7 +171,7 @@ export default function AllBlogs() {
               thumbnail: article.thumbnail,
               title: article.title,
               image: data.data.feed.image,
-              blog: `/blog/${StringToSlug(article.title)}`,
+              blog: `/blog/${article.link.split('/').pop()}`,
             },
           ])
         })
