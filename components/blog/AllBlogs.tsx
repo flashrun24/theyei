@@ -8,6 +8,7 @@ export default function AllBlogs() {
   let [newBlogs, setNewBlogs] = useState([])
   let [newBlogs1, setNewBlogs1] = useState([])
   let [newBlogs2, setNewBlogs2] = useState([])
+  let [newBlogs3, setNewBlogs3] = useState([])
   let combinedBlogs = []
 
   function GetDate(date: String) {
@@ -48,6 +49,8 @@ export default function AllBlogs() {
     'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@dyaveroglu'
   const mediumUrl4 =
     'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sricharan_64119'
+  const mediumUrl5 =
+    'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@areninan11'
 
   useEffect(() => {
     axios.get(mediumUrl).then((data) => {
@@ -151,6 +154,28 @@ export default function AllBlogs() {
           ])
         })
       })
+
+      axios
+      .get(mediumUrl5)
+      .then((data) => {
+        data.data.items.forEach((article: any) => {
+          setNewBlogs3((prevBlogs) => [
+            ...prevBlogs,
+            {
+              account: data.data.feed.link,
+              author: article.author,
+              content: article.content,
+              description: article.description,
+              pubLink: article.link,
+              pubDate: article.pubDate,
+              thumbnail: article.thumbnail,
+              title: article.title,
+              image: data.data.feed.image,
+              blog: `/blog/${StringToSlug(article.title)}`,
+            },
+          ])
+        })
+      })
       .then(() => {
         // combinedBlogs = [...newBlogs, ...blogs, ];
         setLoaded(true)
@@ -223,7 +248,7 @@ export default function AllBlogs() {
               </div>
             </div>
           )}
-          {[...newBlogs2, ...newBlogs1, ...newBlogs, ...blogs].map((post) => (
+          {[...newBlogs3,...newBlogs2, ...newBlogs1, ...newBlogs, ...blogs].map((post) => (
             <div key={post.title} className="flex flex-col ">
               <div className="flex-1 bg-white p-6 flex flex-col justify-between rounded-lg border border-gray-200 shadow-md hover:shadow-lg">
                 <div className="flex-1">
