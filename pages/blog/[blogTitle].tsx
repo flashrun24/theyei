@@ -58,6 +58,8 @@ export default function blog() {
     'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@dyaveroglu'
   const mediumURL4 =
     'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sricharan_64119'
+   const mediumUrl5 =
+    'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@areninan11'
   useEffect(() => {
     if (!blogTitle) {
       return
@@ -135,6 +137,24 @@ export default function blog() {
     })
 
     axios.get(mediumURL4).then((data) => {
+      data.data.items.forEach((article: any) => {
+        if (StringToSlug(article.title) === blogTitle) {
+          setBlog({
+            account: data.data.feed.link,
+            author: article.author,
+            content: article.content,
+            description: article.description,
+            pubLink: article.link,
+            pubDate: GetDate(article.pubDate),
+            thumbnail: article.thumbnail,
+            title: article.title,
+            image: data.data.feed.image,
+          })
+        }
+      })
+    })
+
+    axios.get(mediumURL5).then((data) => {
       data.data.items.forEach((article: any) => {
         if (StringToSlug(article.title) === blogTitle) {
           setBlog({
