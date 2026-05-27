@@ -82,7 +82,7 @@ const team: Member[] = [
   },
   {
     name: 'Satya Dindi',
-    positions: ['FLIP Marketing Manager & Head Team Ambassador'],
+    positions: ['FLIP Curriculum Developer & Head Team Ambassador'],
     linkedin: 'satya-dindi',
   },
   {
