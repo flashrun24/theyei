@@ -45,6 +45,11 @@ const events = [
       'Women of Wall Street (WOWS) empowers young women in economics, finance, and business. Through mentorship, industry insights, and networking, participants gain the skills and confidence to break barriers and succeed in the business world. As part of this WOWS holds various events including workshops and talks by successful women in economics.',
     href: '/events/wows',
   },
+  {
+    title: 'CORE',
+    content:
+      'CORE (Community of Rising Economists) is YEI's flagship community-building program designed to connect, develop, and amplify the next generation of economic thinkers across the globe founded by Gaathri Chakka and Prasanna Chandankhede. Unlike YEI's existing competition-based programs (Econolympiad, EconBowl), CORE is a sustained community platform: a year-round ecosystem of skill-building workshops, collaborative projects, and professional development.',
+  },
 ]
 
 export default events
