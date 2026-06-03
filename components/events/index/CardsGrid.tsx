@@ -26,7 +26,7 @@ export default function CardsGrid() {
             </p>
           </div>
         </div>
-        <div className="rounded-lg bg-gray-300 overflow-hidden shadow divide-y divide-gray-300 sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px">
+        <div className="rounded-lg bg-white overflow-hidden shadow divide-y divide-gray-300 sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px">
           {events.map(({ title, content, href }) => (
             <div
               key={title}
