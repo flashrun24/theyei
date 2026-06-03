@@ -48,7 +48,8 @@ const events = [
   {
     title: 'CORE',
     content:
-      'CORE (Community of Rising Economists) is YEI’s flagship community-building program designed to connect, develop, and amplify the next generation of economic thinkers across the globe founded by Gaathri Chakka and Prasanna Chandankhede. Unlike YEI’s existing competition-based programs (Econolympiad, EconBowl), CORE is a sustained community platform: a year-round ecosystem of skill-building workshops, collaborative projects, and professional development.',
+      ' Community of Rising Economists (CORE) is YEI’s flagship community-building program designed to connect, develop, and amplify the next generation of economic thinkers across the globe. CORE includes workshops and collaborative events designed for professional development and networking. ',
+    href: '/events/core',
   },
 ]
 
