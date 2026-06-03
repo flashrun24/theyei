@@ -1,6 +1,6 @@
 import React from 'react'
 import Page from '../../components/utility/Page'
-import Hero from '../../components/events/core/CoreInfo'
+import CoreInfo from '../../components/events/core/CoreInfo'
 
 export default function core() {
   return (
