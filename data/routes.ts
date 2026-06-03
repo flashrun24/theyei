@@ -47,6 +47,7 @@ const routes = [
       { href: '/alumnipanel', name: 'Alumni Panel' },
       { href: '/econtalks', name: 'EconTalks' },
       { href: '/wows', name: 'WOWS' },
+      { href: '/core', name: 'CORE' },
     ],
   },
   {
