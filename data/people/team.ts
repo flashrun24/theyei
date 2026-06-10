@@ -134,6 +134,11 @@ const team: Member[] = [
     linkedin: 'christine-idika-kalu-503a08384',
   },
   {
+    name: 'Zoe M',
+    positions: ['Sponsorship and Grant Coordinator'],
+    linkedin: 'zoe-m-9a3593327',
+  },
+  {
     name: 'Linus Li',
     positions: ['YEI Podcast Co-Director'],
     linkedin: 'linus-li-6295042a2',
