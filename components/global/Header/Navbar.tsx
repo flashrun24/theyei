@@ -83,8 +83,7 @@ export default function Navbar() {
                 <a href="https://account.venmo.com/u/youtheconomicsinitiative"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full trans-300 bg-yei-primary-main border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-yei-primary-darker focus:outline-none"
-                  >
+                  className="trans-300 relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-yei-primary-main hover:bg-yei-primary-darker"                  >
                   <span>Donate</span>
                   <FontAwesomeIcon icon={faExternalLinkAlt} className="ml-2 h-3 w-3" />
                 </a>
@@ -131,8 +130,7 @@ export default function Navbar() {
             <a href="https://account.venmo.com/u/youtheconomicsinitiative"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full trans-300 bg-yei-primary-main border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-yei-primary-darker focus:outline-none"
-              >
+              className="trans-300 relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-yei-primary-main hover:bg-yei-primary-darker"              >
               <span>Donate</span>
               <FontAwesomeIcon icon={faExternalLinkAlt} className="ml-2 h-3 w-3" />
             </a>
