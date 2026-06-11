@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 import NavItem from './NavItem'
 import MobileNavItem from './MobileNavItem'
 
-import { faPlus, faTimes, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faPlus, faTimes, faBars, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Link from 'next/link'
@@ -117,6 +117,16 @@ export default function Navbar() {
               }
             />
           ))}
+          <div className="flex items-center mx-2 py-1">
+            <a href="https://account.venmo.com/u/youtheconomicsinitiative"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full trans-300 bg-yei-primary-main border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-yei-primary-darker focus:outline-none"
+              >
+              <span>Donate</span>
+              <FontAwesomeIcon icon={faExternalLinkAlt} className="ml-2 h-3 w-3" />
+            </a>
+          </div>
           <div className="flex items-center mx-4 py-1">
             <Link href="/clubs/register">
               <a className="justify-center w-full inline-flex items-center px-4 py-2 border border-transparent text-md font-medium rounded-md text-white bg-yei-primary-main shadow-sm hover:bg-yei-primary-darker">
