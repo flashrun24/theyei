@@ -79,6 +79,16 @@ export default function Navbar() {
                   }
                 />
               ))}
+             <div className="flex items-center mx-2 py-1">
+                <a href="https://account.venmo.com/u/youtheconomicsinitiative"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full trans-300 bg-yei-primary-main border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-yei-primary-darker focus:outline-none"
+                  >
+                  <span>Donate</span>
+                  <FontAwesomeIcon icon={faExternalLinkAlt} className="ml-2 h-3 w-3" />
+                </a>
+              </div>
               <div className="flex items-center">
                 <div className="flex-shrink-0">
                   <Link href="/clubs/register">
