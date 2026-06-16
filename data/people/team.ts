@@ -260,6 +260,11 @@ const team: Member[] = [
     positions: ['Marketing Specialist'],
     linkedin: 'aine-kim-71a3923a9',
   },
+  {
+    name: 'Ayan Jinobi',
+    positions: ['Marketing Specialist'],
+    linkedin: 'ayan-jinobi-721754391',
+  },
 ]
 
 export { team, exec }
