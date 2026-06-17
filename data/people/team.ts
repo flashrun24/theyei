@@ -197,6 +197,11 @@ const team: Member[] = [
     linkedin: 'swarnika-naik-0b0505399',
   },
   {
+    name: 'Sophia Balaraman',
+    positions: ['Event Coordinator'],
+    linkedin: 'sophia-balaraman-219435417',
+  },
+  {
     name: 'Viyan Patel',
     positions: ['Team Ambassador', 'FLIP Social Media Manager'],
     linkedin: 'viyanpatel',
