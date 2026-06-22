@@ -16,8 +16,9 @@ export default function Prizes() {
 
           {/* 1st Place */}
           <div className="flex flex-col sm:order-2">
-            <dd className="order-1 text-3xl font-extrabold text-white">      
-                href="https://www.youtube.com/watch?v=K_DgNDMHttc"
+            <dd className="order-1 text-3xl font-extrabold text-white">
+              
+               <a href="https://www.youtube.com/watch?v=K_DgNDMHttc"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
@@ -35,7 +36,7 @@ export default function Prizes() {
             </dd>
             <dd className="order-4 mt-2">
               
-                href="https://www.youtube.com/watch?v=K_DgNDMHttc"
+               <a href="https://www.youtube.com/watch?v=K_DgNDMHttc"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-indigo-300 hover:text-white text-sm underline"
@@ -62,8 +63,9 @@ export default function Prizes() {
 
           {/* 3rd Place */}
           <div className="flex flex-col mt-10 sm:mt-0 sm:order-3">
-            <dd className="order-1 text-2xl font-extrabold text-gray-300">     
-                href="https://www.youtube.com/watch?v=RucdTbMh-U4"
+            <dd className="order-1 text-2xl font-extrabold text-gray-300">
+              
+               <a href="https://www.youtube.com/watch?v=RucdTbMh-U4"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
@@ -79,8 +81,9 @@ export default function Prizes() {
             <dd className="order-3 mt-3 text-lg text-indigo-200">
               Dhanvin Pamulapati, Tanish Jampala, Ishaan Somaka
             </dd>
-            <dd className="order-4 mt-2">    
-                href="https://www.youtube.com/watch?v=RucdTbMh-U4"
+            <dd className="order-4 mt-2">
+              
+                <a href="https://www.youtube.com/watch?v=RucdTbMh-U4"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-indigo-300 hover:text-white text-sm underline"
