@@ -63,9 +63,9 @@ export default function Curriculum() {
              from paychecks and credit scores to investing and taxes — in
              plain, accessible language with no finance background required.
              Read the full handbook{' '}
-             <Link href="https://moneymanual.org/" target="_blank" className="green-link">
-               here
-             </Link>
+             <a href="https://moneymanual.org/" target="_blank" className="green-link">
+                here
+              </a>
              .
            </p>
            }
