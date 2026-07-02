@@ -8,6 +8,7 @@ export default function CurriculumSection({
   ctaBtn,
   darkerBg,
   slideLink,
+  imageLink,
   caption,
   folderLink
 }: DemoSectionProps) {
@@ -52,11 +53,19 @@ export default function CurriculumSection({
         </div>
 
           <div className="mt-12 sm:mt-16 lg:mt-0 px-4 md:px-8 lg:px-0 lg:m-0 flex items-center content-center justify-center flex-col">
-            <iframe
-              src={slideLink}
-              width="100%"
-              className="overflow-hidden rounded-xl shadow-xl max-w-2xl h-60 md:h-96 block"
-            ></iframe>
+            {imageLink ? (
+              <img
+                src={imageLink}
+                alt={caption ? caption : title}
+                className="overflow-hidden rounded-xl shadow-xl max-w-2xl h-60 md:h-96 object-contain block bg-white"
+              />
+            ) : (
+              <iframe
+                src={slideLink}
+                width="100%"
+                className="overflow-hidden rounded-xl shadow-xl max-w-2xl h-60 md:h-96 block"
+              ></iframe>
+            )}
             <div className="w-full md:px-16 lg:px-0 mt-2 text-sm text-gray-600 italic">{caption ? caption : "Preivew of Curriculum"}</div>
         </div>
       </div>
@@ -70,6 +79,7 @@ type DemoSectionProps = {
   ctaBtn?: any
   darkerBg?: boolean
   caption?: string
-  slideLink: string
+  slideLink?: string
+  imageLink?: string
   folderLink?: string
 }
