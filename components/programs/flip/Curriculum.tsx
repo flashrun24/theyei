@@ -50,26 +50,26 @@ export default function Curriculum() {
           slideLink="https://docs.google.com/presentation/d/1BraTKVxccaYmnoXqS18Q-oUEO3lz_8jAIuldcCNdQWQ/embed#slide=id.g11a1ccd9bf3_0_102"
           content="Recognizing the massive shift toward digital money and artificial intelligence, the FLIP team has developed a brand-new 7-week curriculum — Financial Literacy in the Age of AI & Digital Money — to prepare students for the future of finance. This 7-week course, designed by Sricharan Bala (FLIP Curriculum Manager) under Prasanna Chandankhede (VP of FLIP)'s supervision, introduces students to the essentials of digital finance, AI, and fintech, helping them understand how technology is reshaping money and opportunity."
         />
-         <CurriculumSection
-          title="50 Things You Shouldn't Learn the Hard Way"
-          imageLink="https://thb.tildacdn.net/tild6230-6431-4366-b332-616634303732/-/empty/book_cover.png"
-          caption="A Teen's User Manual for Money"
-          folderLink="https://moneymanual.org/"
-          content={
-            <p>
-              Written by teen author Deniz Yaveroglu and published by YEI
-              Press, <b>A Teen's User Manual for Money</b> is a free online
-              handbook covering 50 essential financial literacy concepts —
-              from paychecks and credit scores to investing and taxes — in
-              plain, accessible language with no finance background required.
-              Read the full handbook{' '}
-              <Link href="https://moneymanual.org/" target="_blank" className="text-indigo-600 underline">
-                here
-              </Link>
-              .
-            </p>
-          }
-        />
+        <CurriculumSection
+         title="50 Things You Shouldn't Learn the Hard Way"
+         imageLink="https://static.tildacdn.net/tild3533-6633-4363-b561-623239313561/og-image-50things.jpg"
+         caption="A Teen's User Manual for Money"
+         folderLink="https://moneymanual.org/"
+         content={
+           <p>
+             Written by teen author Deniz Yaveroglu and published by YEI
+             Press, <b>A Teen's User Manual for Money</b> is a free online
+             handbook covering 50 essential financial literacy concepts —
+             from paychecks and credit scores to investing and taxes — in
+             plain, accessible language with no finance background required.
+             Read the full handbook{' '}
+             <Link href="https://moneymanual.org/" target="_blank" className="green-link">
+               here
+             </Link>
+             .
+           </p>
+           }
+         />
       </div>
     </div>
   )
