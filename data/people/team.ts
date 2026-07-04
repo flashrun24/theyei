@@ -139,6 +139,11 @@ const team: Member[] = [
     linkedin: 'zoe-m-9a3593327',
   },
   {
+    name: 'Samara Hamza',
+    positions: ['Sponsorship and Grant Coordinator'],
+    linkedin: 'samara-hamza-6645b0386',
+  },
+  {
     name: 'Linus Li',
     positions: ['YEI Podcast Co-Director'],
     linkedin: 'linus-li-6295042a2',
