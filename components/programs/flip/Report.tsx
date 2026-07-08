@@ -101,12 +101,12 @@ export default function Report() {
                   </div>
                 </div>
               </div>
-              <div className="mt-10 lg:mt-0 lg:col-span-5 flex justify-center lg:justify-end items-start">
+              <div className="mt-10 lg:mt-0 lg:col-span-5 flex justify-center lg:justify-end items-center">
                 <a href="/files/FLIP-Economics-Research.pdf" target="_blank">
                   <img
                     src="/img/flip/flip-report-cover.jpg"
                     alt="FLIP 2026 Research Report cover page"
-                    className="rounded-lg shadow-xl max-h-[420px] w-auto"
+                    className="rounded-lg shadow-xl max-h-[560px] w-auto"
                   />
                 </a>
               </div>
