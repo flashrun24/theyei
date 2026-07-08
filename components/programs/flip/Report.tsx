@@ -51,8 +51,8 @@ export default function Report() {
         </div>
         <div className="relative pb-16 sm:pb-24 lg:pb-32 pt-12">
           <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
-            <div className="lg:grid lg:grid-cols-12 lg:gap-8">
-              <div className="text-center md:max-w-2xl md:mx-auto lg:col-span-12">
+            <div className="lg:grid lg:grid-cols-12 lg:gap-8 lg:items-center">
+              <div className="text-center lg:text-left md:max-w-2xl md:mx-auto lg:mx-0 lg:col-span-7">
                 <h1>
                   <span className="block text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
                     FLIP 2026 Research Report
@@ -100,6 +100,15 @@ export default function Report() {
                     </a>
                   </div>
                 </div>
+              </div>
+              <div className="mt-10 lg:mt-0 lg:col-span-5 flex justify-center lg:justify-end items-start">
+                <a href="/files/FLIP-Economics-Research.pdf" target="_blank">
+                  <img
+                    src="/img/flip/flip-report-cover.jpg"
+                    alt="FLIP 2026 Research Report cover page"
+                    className="rounded-lg shadow-xl max-h-[420px] w-auto"
+                  />
+                </a>
               </div>
             </div>
           </main>
