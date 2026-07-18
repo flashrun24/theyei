@@ -192,6 +192,11 @@ const team: Member[] = [
     linkedin: 'ben-netser-a1556b3a1',
   },
   {
+    name: 'Daniel W',
+    positions: ['Curriculum Developer'],
+    linkedin: 'daniel-w-36881540a',
+  },
+  {
     name: 'Akshat Ranjan',
     positions: ['Event Coordinator'],
     linkedin: 'akshat-ranjan-b42416358',
