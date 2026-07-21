@@ -49,10 +49,9 @@ const exec: Member[] = [
     linkedin: 'eli-orbach-92a0b2341',
   },
   {
-    name: 'Nathan Raja',
+    name: 'Satya Dindi',
     positions: ['VP of Clubs'],
-    linkedin: 'nathan-raja-06126b256',
-    email: 'nathanraja@theyei.org',
+    linkedin: 'satya-dindi',
   },
   {
     name: 'Deniz Yaveroglu',
@@ -79,12 +78,7 @@ const team: Member[] = [
     name: 'Mahesh Yandra',
     positions: ['FLIP Curriculum Developer'],
     linkedin: 'mahesh-y-b96716334',
-  },
-  {
-    name: 'Satya Dindi',
-    positions: ['FLIP Curriculum Developer & Head Team Ambassador'],
-    linkedin: 'satya-dindi',
-  },
+  },  
   {
     name: 'Kioni Chong',
     positions: ['Sponsorship and Grant Coordinator'],
