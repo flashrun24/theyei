@@ -6,6 +6,7 @@ interface SpeakerProps {
   date: string
   bio: string
   imgSrc?: string | null
+  zoomLink?: string
 }
 
 export default function Speaker({ name, occupation, date, bio, imgSrc }: SpeakerProps) {
@@ -40,6 +41,19 @@ export default function Speaker({ name, occupation, date, bio, imgSrc }: Speaker
           <p className="text-gray-500">
             <Truncate str={bio} n={169} />
           </p>
+          {zoomLink && (
+           <p className="text-gray-700">
+             Join via Zoom:{' '}
+             
+               <a className="text-yei-primary-main underline"
+               href={zoomLink}
+               target="_blank"
+               rel="noreferrer"
+               >
+               {zoomLink}
+             </a>
++           </p>
++         )}
         </div>
       </div>
     </li>
