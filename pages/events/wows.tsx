@@ -129,7 +129,12 @@ export default function wows() {
       </ContentBlock>
       <Curriculum />
       <SpeakerGrid />
-      <ContentBlock title="Join our next event" subtitle="Event" boa={false}>
+      <ContentBlock
+       title="Join our next event"
+       subtitle="Event"
+       boa={false}
+       imgSrc="/img/photos/programs/flip.jpg"
+       >
        <p>
          Our next WOWS event is on <b>July 25th at 2:30 PM EST</b>, featuring
          speaker Ana Alvarenga, Vice President at Intrepid Investment Bankers.
