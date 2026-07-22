@@ -9,7 +9,7 @@ interface SpeakerProps {
   zoomLink?: string
 }
 
-export default function Speaker({ name, occupation, date, bio, imgSrc }: SpeakerProps) {
+export default function Speaker({ name, occupation, date, bio, imgSrc,zoomLink }: SpeakerProps) {
    const initials = name
      .split(' ')
      .map((part) => part[0])
