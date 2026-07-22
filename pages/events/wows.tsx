@@ -129,26 +129,6 @@ export default function wows() {
       </ContentBlock>
       <Curriculum />
       <SpeakerGrid />
-      <ContentBlock
-       title="Join our next event"
-       subtitle="Event"
-       boa={false}
-       imgSrc="/img/photos/programs/flip.jpg"
-       >
-       <p>
-         Our next WOWS event is on <b>July 25th at 2:30 PM EST</b>, featuring
-         speaker Ana Alvarenga, Vice President at Intrepid Investment Bankers.
-       </p>
-       <p>
-         Join via Zoom:{' '}
-           <a className="text-yei-primary-main underline"
-           href="https://us06web.zoom.us/j/87569868575"
-           target="_blank"
-           rel="noreferrer">
-           https://us06web.zoom.us/j/87569868575
-         </a>
-       </p>
-     </ContentBlock>
     </Page>
   )
 }
