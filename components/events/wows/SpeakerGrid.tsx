@@ -13,7 +13,7 @@ export default function SpeakerGrid() {
             </h2>
           </div>
           <ul className="mx-auto justify-center flex flex-wrap flex-col sm:flex-row">
-            {wows.map(({ name, occupation, bio, date, hasImage = true }) => {
+            {wows.map(({ name, occupation, bio, date, hasImage = true, zoomLink }) => {
               let key = name.replace(/[\W_]+/g, '-').toLowerCase()
               return (
                 <Speaker
@@ -23,6 +23,8 @@ export default function SpeakerGrid() {
                   bio={bio}
                   date={date}
                   imgSrc={hasImage ? `/img/people/wows/${key}.jpg` : null}
+                  zoomLink={zoomLink}
+
                 />
               )
             })}
