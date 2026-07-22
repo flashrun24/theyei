@@ -52,8 +52,8 @@ export default function Speaker({ name, occupation, date, bio, imgSrc,zoomLink }
                >
                {zoomLink}
              </a>
-+           </p>
-+         )}
+           </p>
+         )}
         </div>
       </div>
     </li>
