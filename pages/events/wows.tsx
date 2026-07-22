@@ -136,12 +136,10 @@ export default function wows() {
        </p>
        <p>
          Join via Zoom:{' '}
-         
-           className="text-yei-primary-main underline"
+           <a className="text-yei-primary-main underline"
            href="https://us06web.zoom.us/j/87569868575"
            target="_blank"
-           rel="noreferrer"
-         >
+           rel="noreferrer">
            https://us06web.zoom.us/j/87569868575
          </a>
        </p>
